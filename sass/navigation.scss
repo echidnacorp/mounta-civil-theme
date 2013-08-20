@@ -64,7 +64,6 @@ li a.active {
 
     li { /* A simple method to get navigation links to appear in one line. */
       float: left;
-      padding: 8px;
       margin: 0 2px;
       list-style-type: none;
       list-style-image: none;
@@ -87,6 +86,9 @@ li a.active {
 
     li { /* A simple method to get navigation links to appear in one line. */
       float: left;
+      margin: 0.5em 1%;
+      height: 215px;
+      width: 95px;
       list-style-type: none;
       list-style-image: none;
     }
@@ -96,11 +98,94 @@ li a.active {
 .region-navigation {
 }
 
+/* Footer Links */
+
+#block-menu-menu-footer-menu {
+  background: url('../images/foot-bar.png') no-repeat #AF140C;
+  float: right;
+  width: 75%;
+  height: 15px;
+  ul.menu {
+    margin: -5px 100px 0;
+    float: right;
+    li {
+      display: inline;
+      text-align: right;
+      list-style-type: none;
+      list-style-image: none;
+      margin: 0 5px;
+      padding-right: 10px;
+      line-height: 1em;
+      border-right: 1px solid #fff;
+      a {
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 1pt;
+        text-transform: uppercase;
+        font-size: 85%;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    li.last {
+      border: 0;
+      padding: 0;
+    }
+  }
+}
+
 /*
  * Main menu and Secondary menu links
  */
 
 #main-menu {
+  ul {
+    float: right;
+    width: 67%;
+    li {
+      line-height: 1.2em;
+      a {
+        text-transform: uppercase;
+        letter-spacing: 0.3pt;
+        font-size: 93%;
+        line-height: 1em;
+        height: 215px;
+        width: 102px; 
+        display: block;
+        padding: 8px;
+      }
+      a:hover {
+        background: #AF140C;
+        opacity: 0.3;
+      }
+    }
+    li.menu-372 {
+      background: url('../images/introduction.jpg') no-repeat;
+      width: 104px !important;
+    }
+    li.menu-373 {
+      background: url('../images/primary_sources.jpg') no-repeat;
+    }
+    li.menu-376 {
+      background: url('../images/case_studies.jpg') no-repeat;
+    }
+    li.menu-377 {
+      background: url('../images/teaching.jpg') no-repeat;
+    }
+    li.menu-383 {
+      background: url('../images/news.jpg') no-repeat;
+    }
+    li.menu-378 {
+      background: url('../images/participate.jpg') no-repeat;      
+      width: 450px !important;
+      height: 135px !important;
+      a {
+       height: 135px; 
+       width: 450px;
+      }
+    }
+  }
 }
 
 #secondary-menu {

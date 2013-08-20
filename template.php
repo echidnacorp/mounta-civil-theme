@@ -232,3 +232,9 @@ function mounta_civil_theme_preprocess_html(&$variables) {
   drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
   drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
 }
+
+/* Remove frontpage message */
+
+function mounta_civil_theme_preprocess_page(&$variables) {
+  if (drupal_is_front_page()) { $variables['title']=""; } 
+}

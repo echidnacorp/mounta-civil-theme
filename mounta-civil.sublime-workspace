@@ -31,15 +31,15 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 4298,
+				"buffer_size": 4732,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/blocks.scss",
+			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 2223,
+				"buffer_size": 5412,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,15 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 1807,
+				"buffer_size": 3593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/blocks.scss",
+			"settings":
+			{
+				"buffer_size": 2375,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +63,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14307,
+				"buffer_size": 14355,
 				"line_ending": "Unix"
 			}
 		}
@@ -92,6 +100,8 @@
 	},
 	"file_history":
 	[
+		"/Volumes/MountA Vagrant/themes/mounta-civil-theme/sass/print.scss",
+		"/Volumes/MountA Vagrant/themes/mounta-civil-theme/sass/_base.scss",
 		"/Volumes/EMIC Vagrant/themes/mounta-civil-theme/sass/layouts/fixed-width.scss",
 		"/Volumes/EMIC Vagrant/themes/mounta-civil-theme/sass/layouts/responsive-sidebars-rtl.scss",
 		"/Volumes/EMIC Vagrant/themes/mounta-civil-theme/sass/layouts/responsive-sidebars.scss",
@@ -153,6 +163,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background",
+			"#logo",
+			"footer",
 			"condition",
 			"html",
 			"News",
@@ -229,7 +242,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -237,15 +250,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 4298,
+						"buffer_size": 4732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4298,
-								4298
+								1156,
+								1156
 							]
 						],
 						"settings":
@@ -255,25 +268,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3026.0,
+						"translation.y": 1676.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/blocks.scss",
+					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 2223,
+						"buffer_size": 5412,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2223,
-								2223
+								2124,
+								2124
 							]
 						],
 						"settings":
@@ -283,7 +296,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 537.0,
+						"translation.y": 252.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -293,15 +306,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 1807,
+						"buffer_size": 3593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1807,
-								1807
+								3234,
+								3234
 							]
 						],
 						"settings":
@@ -311,25 +324,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 442.0,
+						"translation.y": 1810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "sass/normalize.scss",
+					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 14307,
+						"buffer_size": 2375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14307,
-								14307
+								775,
+								775
 							]
 						],
 						"settings":
@@ -339,7 +352,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10949.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/normalize.scss",
+					"settings":
+					{
+						"buffer_size": 14355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -65,20 +65,19 @@ li a.active {
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
   float: left;
-  padding: 8px;
   margin: 0 2px;
   list-style-type: none;
   list-style-image: none;
   background: #E3E3E3;
   font-family: 'Open Baskerville';
 }
-/* line 73, ../sass/navigation.scss */
+/* line 72, ../sass/navigation.scss */
 #navigation ul.links li a,
 #navigation ul.menu li a {
   text-decoration: none;
 }
 
-/* line 83, ../sass/navigation.scss */
+/* line 82, ../sass/navigation.scss */
 .front #navigation ul.links,
 .front #navigation ul.menu {
   /* Menu block links */
@@ -86,19 +85,122 @@ li a.active {
   padding: 0;
   text-align: left;
 }
-/* line 88, ../sass/navigation.scss */
+/* line 87, ../sass/navigation.scss */
 .front #navigation ul.links li,
 .front #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
   float: left;
+  margin: 0.5em 1%;
+  height: 215px;
+  width: 95px;
   list-style-type: none;
   list-style-image: none;
+}
+
+/* Footer Links */
+/* line 103, ../sass/navigation.scss */
+#block-menu-menu-footer-menu {
+  background: url("../images/foot-bar.png") no-repeat #af140c;
+  float: right;
+  width: 75%;
+  height: 15px;
+}
+/* line 108, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu {
+  margin: -5px 100px 0;
+  float: right;
+}
+/* line 111, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li {
+  display: inline;
+  text-align: right;
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0 5px;
+  padding-right: 10px;
+  line-height: 1em;
+  border-right: 1px solid white;
+}
+/* line 120, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1pt;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+/* line 127, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li a:hover {
+  text-decoration: underline;
+}
+/* line 131, ../sass/navigation.scss */
+#block-menu-menu-footer-menu ul.menu li.last {
+  border: 0;
+  padding: 0;
 }
 
 /*
  * Main menu and Secondary menu links
  */
-/* line 106, ../sass/navigation.scss */
+/* line 143, ../sass/navigation.scss */
+#main-menu ul {
+  float: right;
+  width: 67%;
+}
+/* line 146, ../sass/navigation.scss */
+#main-menu ul li {
+  line-height: 1.2em;
+}
+/* line 148, ../sass/navigation.scss */
+#main-menu ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0.3pt;
+  font-size: 93%;
+  line-height: 1em;
+  height: 215px;
+  width: 102px;
+  display: block;
+  padding: 8px;
+}
+/* line 158, ../sass/navigation.scss */
+#main-menu ul li a:hover {
+  background: #AF140C;
+  opacity: 0.3;
+}
+/* line 163, ../sass/navigation.scss */
+#main-menu ul li.menu-372 {
+  background: url("../images/introduction.jpg") no-repeat;
+  width: 104px !important;
+}
+/* line 167, ../sass/navigation.scss */
+#main-menu ul li.menu-373 {
+  background: url("../images/primary_sources.jpg") no-repeat;
+}
+/* line 170, ../sass/navigation.scss */
+#main-menu ul li.menu-376 {
+  background: url("../images/case_studies.jpg") no-repeat;
+}
+/* line 173, ../sass/navigation.scss */
+#main-menu ul li.menu-377 {
+  background: url("../images/teaching.jpg") no-repeat;
+}
+/* line 176, ../sass/navigation.scss */
+#main-menu ul li.menu-383 {
+  background: url("../images/news.jpg") no-repeat;
+}
+/* line 179, ../sass/navigation.scss */
+#main-menu ul li.menu-378 {
+  background: url("../images/participate.jpg") no-repeat;
+  width: 450px !important;
+  height: 135px !important;
+}
+/* line 183, ../sass/navigation.scss */
+#main-menu ul li.menu-378 a {
+  height: 135px;
+  width: 450px;
+}
+
+/* line 191, ../sass/navigation.scss */
 #secondary-menu {
   float: right;
 }
