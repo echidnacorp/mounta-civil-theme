@@ -50,8 +50,8 @@ body {
 }
 
 #logo { /* Wrapping link for logo */
-  float: left;
-  margin: 6em 2em 0;
+  margin: 2em 0 0;
+  display: block;
   padding: 0;
 
   img {
@@ -61,6 +61,11 @@ body {
 
 #name-and-slogan { /* Wrapper for website name and slogan */
   float: left;
+  position: relative;
+  left: 25%;
+}
+.not-front #name-and-slogan {
+  left: 20.3%;
 }
 
 #site-name { /* The name of the website */
@@ -73,7 +78,7 @@ body {
   float: right;
   width: 65%;
   position: relative;
-  left: 2em;
+  left: 3.1em;
   top: 0.7em;
 
   a:link,
@@ -120,6 +125,10 @@ body {
 #content {
 }
 
+.not-front #content {
+  margin-top: 6.5em;
+}
+
 .region-highlighted {
 }
 
@@ -143,6 +152,16 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
+}
+
+#page-title { 
+  font-size: 125%;
+  border: 1px solid #E3E3E3;
+  display: inline-block;
+  width: auto;
+  padding: 0 10px 2px;
+  -webkit-box-shadow: inset 1px -3px 8px 3px #E3E3E3; 
+        box-shadow: inset 1px -3px 8px 3px #E3E3E3;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
@@ -241,6 +260,13 @@ span.field-label { /* The inline field label used by the Fences module */
 
 .region-sidebar-second {
 }
+
+/*
+ * Islandora Overrides
+ */
+
+
+
 
 /*
  * Footer

@@ -43,6 +43,10 @@ li a.active {
 /*
  * Navigation bar
  */
+.front #navigation {
+  float: right;
+  margin: 12em 0 8em;
+}
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
@@ -63,7 +67,6 @@ li a.active {
     text-align: left;
 
     li { /* A simple method to get navigation links to appear in one line. */
-      float: left;
       margin: 0 2px;
       list-style-type: none;
       list-style-image: none;
@@ -87,12 +90,51 @@ li a.active {
     li { /* A simple method to get navigation links to appear in one line. */
       float: left;
       margin: 0.5em 1%;
-      height: 215px;
+      height: 228px;
       width: 95px;
       list-style-type: none;
       list-style-image: none;
     }
   }
+}
+
+.not-front #navigation {
+  ul.links,
+  ul.menu {
+    li {
+      padding: 8px 10px 14px;
+      display: inline-block;
+      max-width: 90px;
+      height: 20px;
+      vertical-align: middle;
+      line-height: 1em;
+      a {
+        text-transform: uppercase;
+        font-size: 85%;
+      }
+    }
+    li:hover {
+      background-color: #e6232e;
+      @include filter-gradient(#e6232e, #e6232e, horizontal);
+      $experimental-support-for-svg: true;
+      @include background-image(linear-gradient(left,  #e6232e 0%,#e62d33 20%,#e8504f 39%,#e8504f 60%,#e62d33 81%,#e6232e 100%));
+      border-radius: 0 0 8px 0;
+      a {
+      color: #fff;
+      }
+    }
+    li.active-trail {
+      background-color: #e6232e;
+      @include filter-gradient(#e6232e, #e6232e, horizontal);
+      $experimental-support-for-svg: true;
+      @include background-image(linear-gradient(left,  #e6232e 0%,#e62d33 20%,#e8504f 39%,#e8504f 60%,#e62d33 81%,#e6232e 100%));
+      color: #fff;
+      border-radius: 0 0 8px 0;
+      a {
+      color: #fff;
+      }
+    }
+  }  
 }
 
 .region-navigation {
@@ -139,7 +181,7 @@ li a.active {
  * Main menu and Secondary menu links
  */
 
-#main-menu {
+.front #main-menu {
   ul {
     float: right;
     width: 67%;
@@ -155,31 +197,45 @@ li a.active {
         display: block;
         padding: 8px;
       }
-      a:hover {
-        background: #AF140C;
-        opacity: 0.3;
-      }
     }
     li.menu-372 {
       background: url('../images/introduction.jpg') no-repeat;
       width: 104px !important;
+      :hover {
+      background: url('../images/introduction_roll.jpg') no-repeat;
+      }
     }
     li.menu-373 {
       background: url('../images/primary_sources.jpg') no-repeat;
+      :hover {
+      background: url('../images/primary_sources_roll.jpg') no-repeat;
+      }
     }
     li.menu-376 {
       background: url('../images/case_studies.jpg') no-repeat;
+      :hover {
+      background: url('../images/case_studies_roll.jpg') no-repeat;
+      }
     }
     li.menu-377 {
       background: url('../images/teaching.jpg') no-repeat;
+      :hover {
+      background: url('../images/teaching_roll.jpg') no-repeat;
+      }
     }
     li.menu-383 {
       background: url('../images/news.jpg') no-repeat;
+      :hover {
+      background: url('../images/news_roll.jpg') no-repeat;
+      }
     }
     li.menu-378 {
       background: url('../images/participate.jpg') no-repeat;      
       width: 450px !important;
       height: 135px !important;
+      :hover {
+      background: url('../images/participate_roll.jpg') no-repeat;
+      }
       a {
        height: 135px; 
        width: 450px;

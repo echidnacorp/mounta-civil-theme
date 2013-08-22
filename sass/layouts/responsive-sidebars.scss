@@ -79,15 +79,19 @@ $zen-auto-include-item-base: false;
 
 @media all and (min-width: 480px) {
   #main {
-    position: relative;
-    float: right;
-    top: -8em;
   }
   #navigation {
     /*position: absolute;
     top: 0; /* Move the navbar up inside #main's padding. */
     height: auto;
     width: $zen-grid-width;
+  }
+  .not-front {
+    #navigation {
+      width: 60.5%;
+      height: 2em;
+      margin: 1em auto 0;
+    }
   }
 }
 
@@ -108,6 +112,7 @@ $zen-auto-include-item-base: false;
 
     .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
       @include zen-grid-item(1, 1);
+      float: none;
     }
   }
 

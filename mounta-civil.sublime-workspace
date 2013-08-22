@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 4732,
+				"buffer_size": 4830,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,15 +39,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 5412,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/navigation.scss",
-			"settings":
-			{
-				"buffer_size": 3593,
+				"buffer_size": 5484,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +47,15 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 2375,
+				"buffer_size": 2396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/navigation.scss",
+			"settings":
+			{
+				"buffer_size": 4723,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,15 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14355,
+				"buffer_size": 14337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/views-styles.scss",
+			"settings":
+			{
+				"buffer_size": 782,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,6 +108,8 @@
 	},
 	"file_history":
 	[
+		"/Volumes/MountA Vagrant/themes/mounta-civil-theme/templates/region--sidebar-first.tpl.php",
+		"/Volumes/MountA Vagrant/themes/zen/templates/page.tpl.php",
 		"/Volumes/MountA Vagrant/themes/mounta-civil-theme/sass/print.scss",
 		"/Volumes/MountA Vagrant/themes/mounta-civil-theme/sass/_base.scss",
 		"/Volumes/EMIC Vagrant/themes/mounta-civil-theme/sass/layouts/fixed-width.scss",
@@ -163,6 +173,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#footer",
 			"background",
 			"#logo",
 			"footer",
@@ -242,7 +253,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -250,15 +261,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 4732,
+						"buffer_size": 4830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1156,
-								1156
+								0,
+								0
 							]
 						],
 						"settings":
@@ -268,7 +279,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1676.0,
+						"translation.y": 811.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -278,15 +289,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 5412,
+						"buffer_size": 5484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2124,
-								2124
+								2334,
+								2334
 							]
 						],
 						"settings":
@@ -296,25 +307,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 252.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "sass/navigation.scss",
+					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 3593,
+						"buffer_size": 2396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3234,
-								3234
+								0,
+								0
 							]
 						],
 						"settings":
@@ -324,25 +335,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1810.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "sass/blocks.scss",
+					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2375,
+						"buffer_size": 4723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								0,
+								0
 							]
 						],
 						"settings":
@@ -362,7 +373,35 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 14355,
+						"buffer_size": 14337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/views-styles.scss",
+					"settings":
+					{
+						"buffer_size": 782,
 						"regions":
 						{
 						},
