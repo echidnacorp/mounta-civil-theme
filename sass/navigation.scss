@@ -98,19 +98,21 @@ li a.active {
   }
 }
 
-.not-front #navigation {
+.not-front #main-menu {
   ul.links,
   ul.menu {
     li {
-      padding: 8px 10px 14px;
+      padding: 8px 8px 14px;
       display: inline-block;
-      max-width: 90px;
+      max-width: 92px;
       height: 20px;
       vertical-align: middle;
       line-height: 1em;
       a {
         text-transform: uppercase;
         font-size: 85%;
+        display: block;
+        height: 30px;  
       }
     }
     li:hover {
@@ -245,8 +247,31 @@ li a.active {
 }
 
 #secondary-menu {
-  float: right;
+  margin-top: 2em;
+  ul {
+    li {
+      border: 1px solid #E3E3E3;
+      background: none !important;
+      display: inline-block;
+      font-size: 125%;
+      padding: 2px 10px 6px;
+      width: auto;
+      font-family: 'News Cycle' !important;
+      font-weight: bold;
+    }
+    li.active {
+      box-shadow: 1px -3px 8px 3px #E3E3E3 inset;
+    }
+    li:hover {
+      box-shadow: 1px -3px 8px 3px #E3E3E3 inset;
+    }
+  }
 }
+
+body.section-introduction #page-title, body.section-timeline #page-title {
+  display: none;
+}
+
 
 /*
  * Menu blocks

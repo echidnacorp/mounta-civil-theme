@@ -126,7 +126,11 @@ body {
 }
 
 .not-front #content {
-  margin-top: 6.5em;
+  margin-top: 3.2em;
+}
+
+body.section-introduction #content, body.section-timeline #content {
+  margin-top: 5.5em;
 }
 
 .region-highlighted {
