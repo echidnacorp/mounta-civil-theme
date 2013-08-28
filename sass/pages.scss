@@ -49,14 +49,19 @@ body {
 #header {
 }
 
-#logo { /* Wrapping link for logo */
-  margin: 2em 0 0;
+.front #logo { /* Wrapping link for logo */
+  margin: -8.5em 0 0 2em;
   display: block;
   padding: 0;
 
   img {
     vertical-align: bottom;
   }
+}
+
+#logo {
+  display: block;
+  margin: -4em 0 0 1em;
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
@@ -79,18 +84,8 @@ body {
   width: 65%;
   position: relative;
   left: 3.1em;
-  top: 0.7em;
-
-  a:link,
-  a:visited {
-    color: #9f9f9f;
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    text-decoration: underline;
-  }
+  top: 1em;
+  color: #9f9f9f;
 }
 
 #site-slogan { /* The slogan (or tagline) of a website */
@@ -115,7 +110,8 @@ body {
  * Main (container for everything else)
  */
 
-#main {
+.front #main {
+  margin-bottom: 6em;
 }
 
 /*
@@ -269,8 +265,44 @@ span.field-label { /* The inline field label used by the Fences module */
  * Islandora Overrides
  */
 
+/* Search Results */
 
+#islandora-solr-top {
+  display: inline-block;
+  margin-left: 1em;
+}
 
+ul.pager {
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;  
+  li {
+    a {
+      text-decoration: none;      
+    }
+  }
+  li:hover {
+    background-color: #E6232E;   
+      @include filter-gradient(#e6232e, #e6232e, horizontal);
+      $experimental-support-for-svg: true;
+      @include background-image(linear-gradient(left,  #e6232e 0%,#e62d33 20%,#e8504f 39%,#e8504f 60%,#e62d33 81%,#e6232e 100%));
+    border-radius: 3px;
+    a {
+      color: #fff;
+    }
+  }
+  li.pager-current {
+    background-color: #E6232E;   
+      @include filter-gradient(#e6232e, #e6232e, horizontal);
+      $experimental-support-for-svg: true;
+      @include background-image(linear-gradient(left,  #e6232e 0%,#e62d33 20%,#e8504f 39%,#e8504f 60%,#e62d33 81%,#e6232e 100%));
+    color: #fff;
+    border-radius: 3px;
+  }
+}
+
+.islandora-basic-image-object {
+  margin-top: 1em;
+}
 
 /*
  * Footer
@@ -279,6 +311,7 @@ span.field-label { /* The inline field label used by the Fences module */
 #footer {
   clear: both;
   padding: 0;
+  margin-top: 3em; 
 }
 
 /*

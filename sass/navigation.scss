@@ -44,8 +44,7 @@ li a.active {
  * Navigation bar
  */
 .front #navigation {
-  float: right;
-  margin: 12em 0 8em;
+  margin-top: 8.5em;
 }
 
 #navigation {
@@ -192,12 +191,12 @@ li a.active {
       a {
         text-transform: uppercase;
         letter-spacing: 0.3pt;
-        font-size: 93%;
+        font-size: 92%;
         line-height: 1em;
         height: 215px;
         width: 102px; 
         display: block;
-        padding: 8px;
+        padding: 6px;
       }
     }
     li.menu-372 {

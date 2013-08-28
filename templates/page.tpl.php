@@ -82,7 +82,7 @@
       <hgroup id="name-and-slogan">
         <?php if ($site_name): ?>
           <h1 id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+            <span><?php print $site_name; ?></span>
           </h1>
         <?php endif; ?>
 
