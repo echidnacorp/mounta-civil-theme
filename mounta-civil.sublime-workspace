@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 5242,
+				"buffer_size": 6224,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 6209,
+				"buffer_size": 6192,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14337,
+				"buffer_size": 14352,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 6889,
+				"buffer_size": 6802,
 				"line_ending": "Unix"
 			}
 		}
@@ -271,15 +271,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 5242,
+						"buffer_size": 6224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								783,
-								783
+								314,
+								314
 							]
 						],
 						"settings":
@@ -355,15 +355,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 6209,
+						"buffer_size": 6192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5874,
-								5874
+								0,
+								0
 							]
 						],
 						"settings":
@@ -383,15 +383,15 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 14337,
+						"buffer_size": 14352,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4322,
-								4322
+								0,
+								0
 							]
 						],
 						"settings":
@@ -439,15 +439,15 @@
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 6889,
+						"buffer_size": 6802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4178,
-								4178
+								0,
+								0
 							]
 						],
 						"settings":
