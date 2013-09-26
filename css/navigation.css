@@ -103,11 +103,6 @@ li a.active {
   list-style-image: none;
 }
 
-/* line 104, ../sass/navigation.scss */
-.not-front #main-menu ul.links,
-.not-front #main-menu ul.menu {
-  /*li.menu-388 {*/
-}
 /* line 105, ../sass/navigation.scss */
 .not-front #main-menu ul.links li,
 .not-front #main-menu ul.menu li {
@@ -134,9 +129,9 @@ li a.active {
 /* line 121, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-372 .active-trail, .not-front #main-menu ul.links li.menu-372 :hover,
 .not-front #main-menu ul.links ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu ul.links li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-372 :hover,
-.not-front #main-menu ul.links li.menu-372 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-372 :hover,
+.not-front #main-menu ul.menu ul.links li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-372 :hover,
+.not-front #main-menu ul.links li.menu-372 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-372 :hover,
 .not-front #main-menu ul.links li.menu-372 ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu li.menu-376 ul.links li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-372 :hover,
 .not-front #main-menu ul.links li.menu-372 ul.menu li.menu-377 :hover,
@@ -149,10 +144,10 @@ li a.active {
 .not-front #main-menu ul.menu ul.links li.menu-372 :hover,
 .not-front #main-menu ul.links ul.menu li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-372 :hover,
+.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-372 :hover,
+.not-front #main-menu ul.menu li.menu-372 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 ul.links li.menu-376 :hover,
 .not-front #main-menu ul.links li.menu-376 ul.menu li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 li.menu-376 :hover,
@@ -171,66 +166,66 @@ li a.active {
 .not-front #main-menu ul.menu li.menu-378 li.menu-372 :hover {
   background: url("../images/mini-introduction_roll.gif") no-repeat;
 }
-/* line 129, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-400,
-.not-front #main-menu ul.menu li.menu-400 {
+/* line 128, ../sass/navigation.scss */
+.not-front #main-menu ul.links li.menu-388,
+.not-front #main-menu ul.menu li.menu-388 {
   background: url("../images/mini-primary-sources.gif") no-repeat;
   width: 74px;
   height: 41px;
 }
-/* line 133, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-400 .active-trail, .not-front #main-menu ul.links li.menu-400 li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu ul.links li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-376 :hover,
-.not-front #main-menu ul.menu li.menu-376 ul.links li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-377 :hover,
-.not-front #main-menu ul.menu li.menu-377 ul.links li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-383 :hover,
-.not-front #main-menu ul.menu li.menu-383 ul.links li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-378 :hover,
-.not-front #main-menu ul.menu li.menu-378 ul.links li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 .active-trail,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-372 :hover,
-.not-front #main-menu ul.links li.menu-372 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 li.menu-400 :hover,
-.not-front #main-menu ul.menu ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-376 :hover,
-.not-front #main-menu ul.links li.menu-376 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-376 :hover,
-.not-front #main-menu ul.menu li.menu-376 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-377 :hover,
-.not-front #main-menu ul.links li.menu-377 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-377 :hover,
-.not-front #main-menu ul.menu li.menu-377 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-383 :hover,
-.not-front #main-menu ul.links li.menu-383 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-383 :hover,
-.not-front #main-menu ul.menu li.menu-383 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-378 :hover,
-.not-front #main-menu ul.links li.menu-378 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-378 :hover,
-.not-front #main-menu ul.menu li.menu-378 li.menu-400 :hover {
+/* line 132, ../sass/navigation.scss */
+.not-front #main-menu ul.links li.menu-388 .active-trail, .not-front #main-menu ul.links li.menu-388 li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-372 :hover,
+.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu ul.links li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-376 :hover,
+.not-front #main-menu ul.menu li.menu-376 ul.links li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-377 :hover,
+.not-front #main-menu ul.menu li.menu-377 ul.links li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-383 :hover,
+.not-front #main-menu ul.menu li.menu-383 ul.links li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-378 :hover,
+.not-front #main-menu ul.menu li.menu-378 ul.links li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 .active-trail,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-372 :hover,
+.not-front #main-menu ul.links li.menu-372 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-372 :hover,
+.not-front #main-menu ul.menu li.menu-372 li.menu-388 :hover,
+.not-front #main-menu ul.menu ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-376 :hover,
+.not-front #main-menu ul.links li.menu-376 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-376 :hover,
+.not-front #main-menu ul.menu li.menu-376 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-377 :hover,
+.not-front #main-menu ul.links li.menu-377 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-377 :hover,
+.not-front #main-menu ul.menu li.menu-377 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-383 :hover,
+.not-front #main-menu ul.links li.menu-383 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-383 :hover,
+.not-front #main-menu ul.menu li.menu-383 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-378 :hover,
+.not-front #main-menu ul.links li.menu-378 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-378 :hover,
+.not-front #main-menu ul.menu li.menu-378 li.menu-388 :hover {
   background: url("../images/mini-primary-sources_roll.gif") no-repeat;
 }
-/* line 140, ../sass/navigation.scss */
+/* line 139, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-376,
 .not-front #main-menu ul.menu li.menu-376 {
   background: url("../images/mini-case-studies.gif") no-repeat;
   width: 115px;
   height: 52px;
 }
-/* line 144, ../sass/navigation.scss */
+/* line 143, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-376 .active-trail, .not-front #main-menu ul.links li.menu-376 li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-376 :hover,
 .not-front #main-menu ul.links li.menu-376 ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-376 :hover,
-.not-front #main-menu ul.links li.menu-376 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 :hover,
+.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-376 :hover,
+.not-front #main-menu ul.links li.menu-376 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 :hover,
 .not-front #main-menu ul.links ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu ul.links li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-376 :hover,
 .not-front #main-menu ul.links li.menu-376 ul.menu li.menu-377 :hover,
@@ -244,10 +239,10 @@ li a.active {
 .not-front #main-menu ul.links li.menu-372 ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu li.menu-376 li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 li.menu-376 :hover,
-.not-front #main-menu ul.menu li.menu-376 ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-376 :hover,
-.not-front #main-menu ul.menu li.menu-376 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-376 :hover,
+.not-front #main-menu ul.menu li.menu-376 ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-376 :hover,
+.not-front #main-menu ul.menu li.menu-376 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-376 :hover,
 .not-front #main-menu ul.menu ul.links li.menu-376 :hover,
 .not-front #main-menu ul.links ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu li.menu-376 :hover,
@@ -265,19 +260,19 @@ li a.active {
 .not-front #main-menu ul.menu li.menu-378 li.menu-376 :hover {
   background: url("../images/mini-case-studies_roll.gif") no-repeat;
 }
-/* line 151, ../sass/navigation.scss */
+/* line 150, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-377,
 .not-front #main-menu ul.menu li.menu-377 {
   background: url("../images/mini-teaching-modules.gif") no-repeat;
   width: 99px;
   height: 51px;
 }
-/* line 155, ../sass/navigation.scss */
+/* line 154, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-377 .active-trail, .not-front #main-menu ul.links li.menu-377 li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-377 :hover,
 .not-front #main-menu ul.links li.menu-377 ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-377 :hover,
-.not-front #main-menu ul.links li.menu-377 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-377 :hover,
+.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-377 :hover,
+.not-front #main-menu ul.links li.menu-377 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-377 :hover,
 .not-front #main-menu ul.links li.menu-377 ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu li.menu-376 ul.links li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 :hover,
 .not-front #main-menu ul.links ul.menu li.menu-377 :hover,
@@ -291,10 +286,10 @@ li a.active {
 .not-front #main-menu ul.links li.menu-372 ul.menu li.menu-377 :hover,
 .not-front #main-menu ul.menu li.menu-377 li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 li.menu-377 :hover,
-.not-front #main-menu ul.menu li.menu-377 ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-377 :hover,
-.not-front #main-menu ul.menu li.menu-377 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-377 :hover,
+.not-front #main-menu ul.menu li.menu-377 ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-377 :hover,
+.not-front #main-menu ul.menu li.menu-377 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-377 :hover,
 .not-front #main-menu ul.menu li.menu-377 ul.links li.menu-376 :hover,
 .not-front #main-menu ul.links li.menu-376 ul.menu li.menu-377 :hover,
 .not-front #main-menu ul.menu li.menu-377 li.menu-376 :hover,
@@ -312,19 +307,19 @@ li a.active {
 .not-front #main-menu ul.menu li.menu-378 li.menu-377 :hover {
   background: url("../images/mini-teaching-modules_roll.gif") no-repeat;
 }
-/* line 162, ../sass/navigation.scss */
+/* line 161, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-383,
 .not-front #main-menu ul.menu li.menu-383 {
   background: url("../images/mini-news.gif") no-repeat;
   width: 94px;
   height: 47px;
 }
-/* line 166, ../sass/navigation.scss */
+/* line 165, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-383 .active-trail, .not-front #main-menu ul.links li.menu-383 li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-383 :hover,
 .not-front #main-menu ul.links li.menu-383 ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-383 :hover,
-.not-front #main-menu ul.links li.menu-383 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-383 :hover,
+.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-383 :hover,
+.not-front #main-menu ul.links li.menu-383 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-383 :hover,
 .not-front #main-menu ul.links li.menu-383 ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu li.menu-376 ul.links li.menu-383 :hover, .not-front #main-menu ul.links li.menu-383 li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-383 :hover,
 .not-front #main-menu ul.links li.menu-383 ul.menu li.menu-377 :hover,
@@ -338,10 +333,10 @@ li a.active {
 .not-front #main-menu ul.links li.menu-372 ul.menu li.menu-383 :hover,
 .not-front #main-menu ul.menu li.menu-383 li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 li.menu-383 :hover,
-.not-front #main-menu ul.menu li.menu-383 ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-383 :hover,
-.not-front #main-menu ul.menu li.menu-383 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-383 :hover,
+.not-front #main-menu ul.menu li.menu-383 ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-383 :hover,
+.not-front #main-menu ul.menu li.menu-383 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-383 :hover,
 .not-front #main-menu ul.menu li.menu-383 ul.links li.menu-376 :hover,
 .not-front #main-menu ul.links li.menu-376 ul.menu li.menu-383 :hover,
 .not-front #main-menu ul.menu li.menu-383 li.menu-376 :hover,
@@ -359,19 +354,19 @@ li a.active {
 .not-front #main-menu ul.menu li.menu-378 li.menu-383 :hover {
   background: url("../images/mini-news_roll.gif") no-repeat;
 }
-/* line 173, ../sass/navigation.scss */
+/* line 172, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-378,
 .not-front #main-menu ul.menu li.menu-378 {
   background: url("../images/mini-participate.gif") no-repeat;
   width: 129px;
   height: 47px;
 }
-/* line 177, ../sass/navigation.scss */
+/* line 176, ../sass/navigation.scss */
 .not-front #main-menu ul.links li.menu-378 .active-trail, .not-front #main-menu ul.links li.menu-378 li.menu-372 :hover, .not-front #main-menu ul.links li.menu-372 li.menu-378 :hover,
 .not-front #main-menu ul.links li.menu-378 ul.menu li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-400 :hover, .not-front #main-menu ul.links li.menu-400 li.menu-378 :hover,
-.not-front #main-menu ul.links li.menu-378 ul.menu li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 ul.links li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-378 :hover,
+.not-front #main-menu ul.menu li.menu-372 ul.links li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-388 :hover, .not-front #main-menu ul.links li.menu-388 li.menu-378 :hover,
+.not-front #main-menu ul.links li.menu-378 ul.menu li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 ul.links li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-376 :hover, .not-front #main-menu ul.links li.menu-376 li.menu-378 :hover,
 .not-front #main-menu ul.links li.menu-378 ul.menu li.menu-376 :hover,
 .not-front #main-menu ul.menu li.menu-376 ul.links li.menu-378 :hover, .not-front #main-menu ul.links li.menu-378 li.menu-377 :hover, .not-front #main-menu ul.links li.menu-377 li.menu-378 :hover,
 .not-front #main-menu ul.links li.menu-378 ul.menu li.menu-377 :hover,
@@ -385,10 +380,10 @@ li a.active {
 .not-front #main-menu ul.links li.menu-372 ul.menu li.menu-378 :hover,
 .not-front #main-menu ul.menu li.menu-378 li.menu-372 :hover,
 .not-front #main-menu ul.menu li.menu-372 li.menu-378 :hover,
-.not-front #main-menu ul.menu li.menu-378 ul.links li.menu-400 :hover,
-.not-front #main-menu ul.links li.menu-400 ul.menu li.menu-378 :hover,
-.not-front #main-menu ul.menu li.menu-378 li.menu-400 :hover,
-.not-front #main-menu ul.menu li.menu-400 li.menu-378 :hover,
+.not-front #main-menu ul.menu li.menu-378 ul.links li.menu-388 :hover,
+.not-front #main-menu ul.links li.menu-388 ul.menu li.menu-378 :hover,
+.not-front #main-menu ul.menu li.menu-378 li.menu-388 :hover,
+.not-front #main-menu ul.menu li.menu-388 li.menu-378 :hover,
 .not-front #main-menu ul.menu li.menu-378 ul.links li.menu-376 :hover,
 .not-front #main-menu ul.links li.menu-376 ul.menu li.menu-378 :hover,
 .not-front #main-menu ul.menu li.menu-378 li.menu-376 :hover,
@@ -408,19 +403,19 @@ li a.active {
 }
 
 /* Footer Links */
-/* line 192, ../sass/navigation.scss */
+/* line 191, ../sass/navigation.scss */
 #block-menu-menu-footer-menu {
   background: url("../images/foot-bar.png") no-repeat #af140c;
   float: right;
   width: 75%;
   height: 15px;
 }
-/* line 197, ../sass/navigation.scss */
+/* line 196, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu {
   margin: -5px 100px 0;
   float: right;
 }
-/* line 200, ../sass/navigation.scss */
+/* line 199, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li {
   display: inline;
   text-align: right;
@@ -431,7 +426,7 @@ li a.active {
   line-height: 1em;
   border-right: 1px solid white;
 }
-/* line 209, ../sass/navigation.scss */
+/* line 208, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a {
   text-decoration: none;
   color: #fff;
@@ -439,11 +434,11 @@ li a.active {
   text-transform: uppercase;
   font-size: 85%;
 }
-/* line 216, ../sass/navigation.scss */
+/* line 215, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a:hover {
   text-decoration: underline;
 }
-/* line 220, ../sass/navigation.scss */
+/* line 219, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li.last {
   border: 0;
   padding: 0;
@@ -452,19 +447,19 @@ li a.active {
 /*
  * Main menu and Secondary menu links
  */
-/* line 231, ../sass/navigation.scss */
+/* line 230, ../sass/navigation.scss */
 .front #main-menu {
   position: relative;
 }
-/* line 233, ../sass/navigation.scss */
+/* line 232, ../sass/navigation.scss */
 .front #main-menu ul {
   float: right;
 }
-/* line 235, ../sass/navigation.scss */
+/* line 234, ../sass/navigation.scss */
 .front #main-menu ul li {
   line-height: 1.2em;
 }
-/* line 237, ../sass/navigation.scss */
+/* line 236, ../sass/navigation.scss */
 .front #main-menu ul li a {
   text-transform: uppercase;
   letter-spacing: 0.3pt;
@@ -475,48 +470,48 @@ li a.active {
   display: block;
   padding: 6px;
 }
-/* line 248, ../sass/navigation.scss */
+/* line 247, ../sass/navigation.scss */
 .front #main-menu ul li.menu-372 {
   background: url("../images/introduction.jpg") no-repeat;
   width: 104px !important;
 }
-/* line 251, ../sass/navigation.scss */
+/* line 250, ../sass/navigation.scss */
 .front #main-menu ul li.menu-372 :hover {
   background: url("../images/introduction_roll.jpg") no-repeat;
 }
-/* line 255, ../sass/navigation.scss */
+/* line 254, ../sass/navigation.scss */
 .front #main-menu ul li.menu-400 {
   background: url("../images/primary_sources.jpg") no-repeat;
 }
-/* line 257, ../sass/navigation.scss */
+/* line 256, ../sass/navigation.scss */
 .front #main-menu ul li.menu-400 :hover {
   background: url("../images/primary_sources_roll.jpg") no-repeat;
 }
-/* line 261, ../sass/navigation.scss */
+/* line 260, ../sass/navigation.scss */
 .front #main-menu ul li.menu-376 {
   background: url("../images/case_studies.jpg") no-repeat;
 }
-/* line 263, ../sass/navigation.scss */
+/* line 262, ../sass/navigation.scss */
 .front #main-menu ul li.menu-376 :hover {
   background: url("../images/case_studies_roll.jpg") no-repeat;
 }
-/* line 267, ../sass/navigation.scss */
+/* line 266, ../sass/navigation.scss */
 .front #main-menu ul li.menu-377 {
   background: url("../images/teaching.jpg") no-repeat;
 }
-/* line 269, ../sass/navigation.scss */
+/* line 268, ../sass/navigation.scss */
 .front #main-menu ul li.menu-377 :hover {
   background: url("../images/teaching_roll.jpg") no-repeat;
 }
-/* line 273, ../sass/navigation.scss */
+/* line 272, ../sass/navigation.scss */
 .front #main-menu ul li.menu-383 {
   background: url("../images/news.jpg") no-repeat;
 }
-/* line 275, ../sass/navigation.scss */
+/* line 274, ../sass/navigation.scss */
 .front #main-menu ul li.menu-383 :hover {
   background: url("../images/news_roll.jpg") no-repeat;
 }
-/* line 279, ../sass/navigation.scss */
+/* line 278, ../sass/navigation.scss */
 .front #main-menu ul li.menu-378 {
   background: url("../images/participate.jpg") no-repeat;
   width: 450px !important;
@@ -524,21 +519,21 @@ li a.active {
   position: relative;
   left: 16%;
 }
-/* line 285, ../sass/navigation.scss */
+/* line 284, ../sass/navigation.scss */
 .front #main-menu ul li.menu-378 :hover {
   background: url("../images/participate_roll.jpg") no-repeat;
 }
-/* line 288, ../sass/navigation.scss */
+/* line 287, ../sass/navigation.scss */
 .front #main-menu ul li.menu-378 a {
   height: 135px;
   width: 450px;
 }
 
-/* line 296, ../sass/navigation.scss */
+/* line 295, ../sass/navigation.scss */
 #secondary-menu {
   margin-top: 2em;
 }
-/* line 299, ../sass/navigation.scss */
+/* line 298, ../sass/navigation.scss */
 #secondary-menu ul li {
   border: 1px solid #e3e3e3;
   background: none !important;
@@ -549,17 +544,17 @@ li a.active {
   font-family: "News Cycle" !important;
   font-weight: bold;
 }
-/* line 309, ../sass/navigation.scss */
+/* line 308, ../sass/navigation.scss */
 #secondary-menu ul li.active {
   box-shadow: 1px -3px 8px 3px #e3e3e3 inset;
 }
-/* line 312, ../sass/navigation.scss */
+/* line 311, ../sass/navigation.scss */
 #secondary-menu ul li:hover {
   box-shadow: 1px -3px 8px 3px #e3e3e3 inset;
 }
 
-/* line 318, ../sass/navigation.scss */
-body.section-introduction #page-title, body.section-timeline #page-title {
+/* line 317, ../sass/navigation.scss */
+body.section-introduction #page-title, body.section-case-studies #page-title, body.section-timeline #page-title {
   display: none;
 }
 

@@ -125,8 +125,7 @@ li a.active {
         @extend .active-trail;
       }
     }
-    /*li.menu-388 {*/
-    li.menu-400 {
+    li.menu-388 {
       background: url('../images/mini-primary-sources.gif') no-repeat;
       width: 74px;
       height: 41px;
@@ -315,7 +314,7 @@ li a.active {
   }
 }
 
-body.section-introduction #page-title, body.section-timeline #page-title {
+body.section-introduction #page-title, body.section-case-studies #page-title, body.section-timeline #page-title,  {
   display: none;
 }
 

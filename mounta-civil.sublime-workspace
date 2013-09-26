@@ -55,7 +55,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 6192,
+				"buffer_size": 7247,
 				"line_ending": "Unix"
 			}
 		},
@@ -181,6 +181,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".jpg",
+			"_roll",
 			"timeline",
 			"a",
 			"#footer",
@@ -249,6 +251,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			".gif",
+			"_roll.jpg",
+			".gif",
+			"_roll.jpg",
+			"",
 			"222",
 			"51",
 			"5px 5px 15px 5px",
@@ -263,7 +270,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -355,15 +362,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 6192,
+						"buffer_size": 7247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2763,
+								2763
 							]
 						],
 						"settings":
@@ -373,7 +380,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3805.0,
+						"translation.y": 1922.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
