@@ -251,7 +251,7 @@ li a.active {
       background: url('../images/introduction_roll.jpg') no-repeat;
       }
     }
-    li.menu-400 {
+    li.menu-388 {
       background: url('../images/primary_sources.jpg') no-repeat;
       :hover {
       background: url('../images/primary_sources_roll.jpg') no-repeat;
@@ -293,7 +293,7 @@ li a.active {
 }
 
 #secondary-menu {
-  margin-top: 2em;
+  margin-top: 1em;
   ul {
     li {
       border: 1px solid #E3E3E3;
@@ -314,7 +314,7 @@ li a.active {
   }
 }
 
-body.section-introduction #page-title, body.section-case-studies #page-title, body.section-timeline #page-title,  {
+body.section-introduction #page-title, body.section-case-studies #page-title, body.section-interviews #page-title, body.section-timeline #page-title, body.page-islandora-object #page-title, body.section-bibliography #page-title {
   display: none;
 }
 

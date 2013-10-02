@@ -480,11 +480,11 @@ li a.active {
   background: url("../images/introduction_roll.jpg") no-repeat;
 }
 /* line 254, ../sass/navigation.scss */
-.front #main-menu ul li.menu-400 {
+.front #main-menu ul li.menu-388 {
   background: url("../images/primary_sources.jpg") no-repeat;
 }
 /* line 256, ../sass/navigation.scss */
-.front #main-menu ul li.menu-400 :hover {
+.front #main-menu ul li.menu-388 :hover {
   background: url("../images/primary_sources_roll.jpg") no-repeat;
 }
 /* line 260, ../sass/navigation.scss */
@@ -531,7 +531,7 @@ li a.active {
 
 /* line 295, ../sass/navigation.scss */
 #secondary-menu {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 /* line 298, ../sass/navigation.scss */
 #secondary-menu ul li {
@@ -554,7 +554,7 @@ li a.active {
 }
 
 /* line 317, ../sass/navigation.scss */
-body.section-introduction #page-title, body.section-case-studies #page-title, body.section-timeline #page-title {
+body.section-introduction #page-title, body.section-case-studies #page-title, body.section-interviews #page-title, body.section-timeline #page-title, body.page-islandora-object #page-title, body.section-bibliography #page-title {
   display: none;
 }
 

@@ -55,7 +55,7 @@
 			"file": "sass/navigation.scss",
 			"settings":
 			{
-				"buffer_size": 7247,
+				"buffer_size": 7266,
 				"line_ending": "Unix"
 			}
 		},
@@ -362,15 +362,15 @@
 					"file": "sass/navigation.scss",
 					"settings":
 					{
-						"buffer_size": 7247,
+						"buffer_size": 7266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2763,
-								2763
+								0,
+								0
 							]
 						],
 						"settings":
@@ -380,7 +380,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1922.0,
+						"translation.y": 1924.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
