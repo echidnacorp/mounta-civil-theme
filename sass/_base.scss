@@ -58,6 +58,7 @@ $h6-font-size: 0.75 * $base-font-size;
 // monospace) hints at what type of font to use if the web browser doesn't
 // find any of the fonts in the list.
 
+
 // First, let's create some font stacks.
 $times-new-roman: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
 $times:           Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
@@ -78,6 +79,23 @@ $font-body:        $verdana;
 $font-monospace:   $courier;
 
 
+
+//FONT IMPORT
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,400italic,800|Bitter:400,700,400italic|News+Cycle:400,700);
+
+
+
+//NEW FONT SET
+
+//general body
+$font1: 'Open Sans', Helvetica, Arial, sans-serif;
+
+//headings 
+$font2: 'Bitter', "Times New Roman", serif ;
+
+//special text areas
+$font3: 'News Cycle', Helvetica, Arial, sans-serif;
+
 //
 // Colors, etc.
 //
@@ -86,10 +104,25 @@ $font-monospace:   $courier;
 $indent-amount: 30px;
 
 
+
+//COLOURS
+
+//red
+$colour1: #c32222;
+
+//dark grey
+$colour2: #333;
+
+//light grey
+$colour3: #cccccc;
+
+//blue
+$colour4: #3366cc;
+
+
 //
 // Partials to be shared with all .scss files.
 //
-
 @import "compass/support";  // Add Compass' IE and vendor prefix support variables.
 @import "compass/utilities/general/clearfix"; // Better than Drupal's clearfix.
 @import "compass/utilities/sprites"; // See http://compass-style.org/help/tutorials/spriting/

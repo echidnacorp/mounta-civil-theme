@@ -155,19 +155,21 @@ body {
  */
 
 a:link {
-  color: #000;
+  color: lighten($colour1, 10%);
+  transition: all 0.3s ease-in;
 }
 
 a:visited {
-  color: #000;
+  color: darken($colour1, 10%);
 }
 
 a:hover,
 a:focus {
-  color: #e6232e;
+  color: darken($colour1, 7%);
 }
 
 a:active {
+  color: lighten($colour1, 10%);
 }
 
 /*

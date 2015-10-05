@@ -18,10 +18,11 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
+  color: $colour2;
 }
 
 #page {
-  font-family: 'News Cycle';
+  font-family: $font1;
 }
 
 /*
@@ -43,98 +44,199 @@ body {
   }
 }
 
-/*
- * Header
- */
+
+/* ========================================================================== */
+
+//Header
 
 #header {
 }
 
-.front #logo { /* Wrapping link for logo */
-  margin: -8.5em 0 0 2em;
+#logo { /* Wrapping link for logo */
   display: block;
-  padding: 0;
+  padding: .8em 0 0;
 
   img {
-    vertical-align: bottom;
+    height: 140px;
+    width: auto;
   }
 }
 
+#block-delta-blocks-logo,
 #logo {
-  display: block;
-  margin: -4em 0 0 1em;
+  float: left;
+}
+
+#header hgroup {
+  padding: 2.7em 0;
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
-  float: left;
+  float: right;
   position: relative;
-  left: 25%;
+  @extend %transitions;
 }
-.not-front #name-and-slogan {
-  left: 20.3%;
-}
+
 
 #site-name { /* The name of the website */
   margin: 0;
   font-size: 1.3em;
-  font-weight: normal;
+  font-weight: 100;
+  font-family: $font1;
   text-transform: uppercase;
   letter-spacing: 2pt;
   line-height: 1.2em;
   float: right;
-  width: 65%;
-  position: relative;
-  left: 3.1em;
-  top: 1em;
+  text-align: center;
+  width: 339px;
+  top: .5em;
   color: #9f9f9f;
+  position: relative;
 }
 
 #site-slogan { /* The slogan (or tagline) of a website */
   margin: 0;
-  padding: 1.6em 2.5em;
-  font-size: 1em;
-  font-weight: normal;
+  padding: 1em 3.5em 1em 2.5em;
+  font-size: .9em;
+  font-weight: 100;
+  font-family: $font1;
   text-transform: uppercase;
   text-align: right;
   letter-spacing: 2pt;
   line-height: 1.3em;
-  background: #000;
-  width: 28%;
+  width: 165px;
+  float: right;
+  top: -58px;
+  position: relative;
   color: #fff;
 }
 
-.region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+.site-slogan-container {
+  background-repeat: no-repeat;
+  float: right;
+  width: 385px;
+  margin-right: 1em;
+  @extend %transitions;
 }
 
-/*
- * Main (container for everything else)
- */
 
-.front #main {
-  margin-bottom: 6em;
+@media (max-width: 870px) { 
+
+  //logo
+
+  .header__region {
+    width: 10%;
+    float: left;
+
+    #logo img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  //name and slogan
+
+  #name-and-slogan {
+    width: 90%;
+    float: right;
+    position: relative;
+  }
+
+  .site-slogan-container {
+    width: 42%;
+    margin-right: 2%;
+    margin-left: 5%;
+
+    svg {
+      width: 100%;
+    }
+  }
+
+  #site-name {
+    width: 50%;
+  }
 }
+
+@media (max-width: 750px) { 
+
+  #site-name {
+    font-size: 1rem;
+    top: 1em;
+  }
+}
+
+@media (max-width: 620px) { 
+
+  #header hgroup {
+    padding: 0 0;
+  }
+
+  .header__region {
+    width: 100%;
+
+    #logo img {
+      width: 75px;
+      height: auto;
+    }
+  }
+
+  #site-name {
+    font-size: .8rem;
+    top: 1.5em;
+  }
+
+  #site-slogan {
+    font-size: .7em;
+    top: -53px;
+  }
+
+  #name-and-slogan {
+    width: 100%;
+
+    .site-slogan-container  {
+      margin-left: 0;
+      width: 47%;
+      height: 55px;
+      overflow: hidden;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  #block-delta-blocks-logo, #logo {
+    float: none;
+  } 
+
+  .header__region {
+    #logo img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  #name-and-slogan .site-slogan-container {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1em;
+
+    #site-slogan {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
+
+
+
+/* ========================================================================== */
+
+//Main / Content
+
 
 #main {
-  margin-top: 1em;
-}
-
-/*
- * Content
- */
-
-#content {
-}
-
-.not-front #content {
-  margin-top: 3.2em;
-}
-
-body.section-introduction #content, body.section-timeline #content {
-  margin-top: 5.5em;
-}
-
-.region-highlighted {
+  margin-top: 4em;
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
@@ -160,13 +262,7 @@ h3.title { /* Comment title */
 }
 
 #page-title { 
-  font-size: 125%;
-  border: 1px solid #E3E3E3;
-  display: inline-block;
-  width: auto;
-  padding: 0 10px 2px;
-  -webkit-box-shadow: inset 1px -3px 8px 3px #E3E3E3; 
-        box-shadow: inset 1px -3px 8px 3px #E3E3E3;
+
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
@@ -253,6 +349,11 @@ span.field-label { /* The inline field label used by the Fences module */
  * (see the layout.css file.)
  */
 
+
+ /* ========================================================================== */
+
+//Sidebars
+
 .region-sidebar-first {
 }
 
@@ -270,7 +371,11 @@ span.field-label { /* The inline field label used by the Fences module */
  * Islandora Overrides
  */
 
-/* Search Results */
+
+
+/* ========================================================================== */
+
+//Search Results
 
 #islandora-solr-top {
   display: inline-block;
@@ -309,22 +414,98 @@ ul.pager {
   margin-top: 1em;
 }
 
-/*
- * Footer
- */
 
-#footer {
+
+/* ========================================================================== */
+
+//Footer
+
+ .footer-break {
+  height: 15px;
+  width: 100%;
+  margin-bottom: 2em;
+  background: url('../images/foot-bar-left.png') left $colour1 no-repeat;
+ }
+
+  #footer {
+    clear: both;
+    float: left;
+    margin-top: 2.5em;
+    margin-bottom: 2em; 
+  }
+
+//FOOTER LOGO BLOCK
+
+.footer-logos {
   clear: both;
-  padding: 0;
-  margin-top: 3em; 
+  float: right;
+  width: 100%;
+  margin-top: 1em;
+
+  .logo-container {
+    width: 700px;
+    margin: 0 auto;
+    @extend %transitions;
+  }
+
+  .logo-container div {
+    width: auto;
+    float: left;
+  }
+
+  img {
+    margin-left: 2.8em;
+  }
+
+  .sponsor1 img{
+    margin-left: 0;
+  }
 }
 
-/*
- * Page bottom
- */
+@media (max-width: 710px) { 
+ .footer-logos {
+    .logo-container {
+      width: 610px;
+    }
 
-.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+    img {
+      margin-bottom: 2em;
+      margin-left: 1em;
+   }
+  }
 }
+
+@media (max-width: 625px) { 
+  .logo-container {
+    width: 83% !important;
+  }
+}
+
+@media (max-width: 400px) { 
+  .logo-container {
+    width: 100% !important;
+
+    div {
+      width: 100% !important;
+      margin-bottom: 3em;
+    }
+
+    img {
+      display: block;
+      float: none;
+      margin: 0 auto;
+    }
+
+    .sponsor1 img {
+      margin-left: auto;
+    }
+  }
+}
+
+
+/* ========================================================================== */
+
+//Page Bottom
 
 #first-time {
   display: none;

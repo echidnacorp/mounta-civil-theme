@@ -119,43 +119,68 @@
   </header>
 
 
-  <!-- navigation primary menu -->
-  <div id="navigation">
+  <!-- front block navigation -->
 
-    <?php if ($main_menu): ?>
-      <nav id="main-menu" role="navigation">
-        <?php
-          // This code snippet is hard to modify. We recommend turning off the
-          // "Main menu" on your sub-theme's settings form, deleting this PHP
-          // code block, and, instead, using the "Menu block" module.
-          // @see http://drupal.org/project/menu_block
-          print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'class' => array('links', 'inline', 'clearfix'),
-            ),
-            'heading' => array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => array('element-invisible'),
-            ),
-          )); ?>
-        </nav>
+    <div id="navigation" class="front-image-blocks">
+
+        <nav id="main-menu" role="navigation">
+          <ul class="menu">
+            <li class="introduction">
+              <a href="/introduction" class="title">Introduction</a>
+              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            </li>
+            <li class="primary-resources">
+              <a href="/" class="title">Primary Resources</a>
+              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            </li>
+            <li class="case-studies">
+              <a href="/teaching-modules" class="title">Case Studies & Interviews</a>
+              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            </li>
+            <li class="teaching-tools small-box">
+              <a href="/teaching-modules" class="title">Teaching Tools</a>
+              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            </li>
+            <li class="news small-box">
+              <a href="/news" class="title">News</a>
+              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            </li>
+            <li class="participate small-box">
+              <a href="/participate" class="title">Participate</a>
+              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            </li>
+          </ul>
+        </nav> 
+
+    </div><!-- /#navigation -->
+
+
+  <!--- sidebar primary -->
+  <?php if ($secondary_menu): ?>
+    <aside class="sidebar primary">
+      <nav id="secondary-menu" role="navigation">
+        <?php print theme('links__system_secondary_menu', array(
+          'links' => $secondary_menu,
+          'attributes' => array(
+            'class' => array('links', 'inline', 'clearfix'),
+          ),
+          'heading' => array(
+            'text' => $secondary_menu_heading,
+            'level' => 'h2',
+            'class' => array('element-invisible'),
+          ),
+        )); ?>
+      </nav>
     <?php endif; ?>
 
-    <?php print render($page['navigation']); ?>
+      <?php print render($page['navigation']); ?>
 
-  </div><!-- /#navigation -->
-
-
-  <!-- sidebar primary -->  
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar_first  = render($page['sidebar_first']);
     ?>
 
     <?php if ($sidebar_first): ?>
-    <aside class="sidebar primary">
       
         <?php print $sidebar_first; ?>
     </aside> <!--- /sidebar primary-->

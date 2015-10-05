@@ -2,6 +2,7 @@
  * @file
  * Comment Styling
  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,400italic,800|Bitter:400,700,400italic|News+Cycle:400,700);
 /* line 9, ../sass/comments.scss */
 .comments {
   /* Wrapper for the list of comments and its title */

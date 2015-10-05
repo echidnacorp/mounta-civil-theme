@@ -4,6 +4,7 @@
  *
  * Style anything that isn't in the $content variable.
  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,400italic,800|Bitter:400,700,400italic|News+Cycle:400,700);
 /* line 11, ../sass/nodes.scss */
 .node {
   /* Node wrapper */

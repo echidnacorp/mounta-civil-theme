@@ -4,7 +4,8 @@
  *
  * Add wireframes to the basic layout elements.
  */
-/* line 19, ../sass/wireframes.scss */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,400italic,800|Bitter:400,700,400italic|News+Cycle:400,700);
+/* line 12, ../sass/wireframes.scss */
 .with-wireframes #header,
 .with-wireframes #main,
 .with-wireframes #content,
@@ -13,5 +14,5 @@
 .with-wireframes .region-sidebar-second,
 .with-wireframes #footer,
 .with-wireframes .region-bottom {
-  outline: 1px solid #cccccc;
+  outline: 1px solid #ccc;
 }
