@@ -41,7 +41,7 @@ ul li.leaf {
 
 
 
-#navigation nav#main-menu {
+.not-front #navigation nav#main-menu {
 
   .block-menu .block-title,
   .block-menu-block .block-title {
@@ -59,19 +59,29 @@ ul li.leaf {
       //changing widths specifically for differing word lengths
 
       //introduction
-      &.menu-372 {}
+      &.menu-372 {
+        width: 18%;
+      }
 
       //case studies
-      &.menu-376 {}
+      &.menu-376 {
+        width: 30%;
+      }
 
       //teaching modules
-      &.menu-377 {}
+      &.menu-377 {
+        width: 22%;
+      }
 
       //news
-      &.menu-406 {}
+      &.menu-406 {
+        width: 12%;
+      }
 
       //volunteers
-      &.menu-674 {}
+      &.menu-663 {
+        width: 17%;
+      }
 
 
       a{
@@ -97,6 +107,12 @@ ul li.leaf {
         }
       }
     }
+  }
+
+  @media (max-width: 735px){
+      li a {
+        font-size: .8em;
+      }
   }
 
 }
