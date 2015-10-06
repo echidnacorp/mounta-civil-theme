@@ -76,6 +76,7 @@
 
 <!-- header section -->
   <header id="header" role="banner">
+    <?php print render($page['header']); ?>
 
     <!-- print the logo -->
     <?php if ($logo): ?>
@@ -83,14 +84,8 @@
     <?php endif; ?>
 
     <!-- print the site name and slogan -->
-    <?php if ($site_name || $site_slogan): ?>
+    <?php if ($site_name): ?>
       <hgroup id="name-and-slogan">
-        <!-- site name -->
-        <?php if ($site_name): ?>
-          <h1 id="site-name">
-            <span>Canadian Cultural History About The Spanish Civil War</span>
-          </h1>
-    <?php endif; ?>
 
     <!-- site slogan and background shape container -->
     <?php if ($site_slogan): ?>
@@ -111,11 +106,18 @@
         <!-- the slogan text -->
         <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
       </div><!-- /site slogan container -->
+
+        <!-- site name -->
+      <?php if ($site_name): ?>
+          <h1 id="site-name">
+            <span>Canadian Cultural History About The Spanish Civil War</span>
+          </h1>
+    <?php endif; ?>
+
     <?php endif; ?>
       </hgroup><!-- /#name-and-slogan -->
     <?php endif; ?>
 
-    <?php print render($page['header']); ?>
   </header>
 
 
@@ -147,6 +149,9 @@
 
   </div><!-- /#navigation -->
 
+
+<!-- holds sidebars and main content -->
+<div class="main-content-container">
 
   <!-- sidebar primary -->  
     <?php
@@ -198,7 +203,7 @@
       </aside> <!--- /sidebar secondary -->
     <?php endif; ?>
  
-
+</div><!-- /main-content-conatiner -->
 
   <!-- Footer -->
   <div id="footer">

@@ -76,6 +76,7 @@
 
 <!-- header section -->
   <header id="header" role="banner">
+    <?php print render($page['header']); ?>
 
     <!-- print the logo -->
     <?php if ($logo): ?>
@@ -83,14 +84,8 @@
     <?php endif; ?>
 
     <!-- print the site name and slogan -->
-    <?php if ($site_name || $site_slogan): ?>
+    <?php if ($site_name): ?>
       <hgroup id="name-and-slogan">
-        <!-- site name -->
-        <?php if ($site_name): ?>
-          <h1 id="site-name">
-            <span>Canadian Cultural History About The Spanish Civil War</span>
-          </h1>
-    <?php endif; ?>
 
     <!-- site slogan and background shape container -->
     <?php if ($site_slogan): ?>
@@ -111,14 +106,21 @@
         <!-- the slogan text -->
         <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
       </div><!-- /site slogan container -->
+
+        <!-- site name -->
+      <?php if ($site_name): ?>
+          <h1 id="site-name">
+            <span>Canadian Cultural History About The Spanish Civil War</span>
+          </h1>
+    <?php endif; ?>
+
     <?php endif; ?>
       </hgroup><!-- /#name-and-slogan -->
     <?php endif; ?>
 
-    <?php print render($page['header']); ?>
   </header>
 
-
+<div class="main-content-container">
   <!-- front block navigation -->
 
     <div id="navigation" class="front-image-blocks">
@@ -127,27 +129,27 @@
           <ul class="menu">
             <li class="introduction">
               <a href="/introduction" class="title">Introduction</a>
-              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+              <div class="sub-text"><p><a href="/introduction">It is a long established fact that a reader will be distracted. <span class="more">More ></span></a></p></div>
             </li>
             <li class="primary-resources">
               <a href="/" class="title">Primary Resources</a>
-              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+              <div class="sub-text"><a href="/"><p>Bringing Canadian cultural materials about Spain to a wider audience. <span class="more">More ></span></a></p></div>
             </li>
             <li class="case-studies">
-              <a href="/teaching-modules" class="title">Case Studies & Interviews</a>
-              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+              <a href="/case-studies" class="title">Case Studies & Interviews</a>
+              <div class="sub-text"><p><a href="/teaching-modules">Scholarship on our primary sources and other cultural engagement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
             </li>
-            <li class="teaching-tools small-box">
+            <li class="teaching-tools">
               <a href="/teaching-modules" class="title">Teaching Tools</a>
-              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+              <div class="sub-text"><p><a href="/teaching-modules">Resources for teaching Canadian materials about the Spanish Civil War at the secondary and post-secondary levels. <span class="more">More ></span></a></p></div>
             </li>
             <li class="news small-box">
               <a href="/news" class="title">News</a>
-              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+              <div class="sub-text"><p><a href="/news">Announcing our series of print editions with the University of Ottawa Press. <span class="more">More ></span></a></p></div>
             </li>
-            <li class="participate small-box">
-              <a href="/participate" class="title">Participate</a>
-              <div class="sub-text"><p>It is a long established fact that a reader will be distracted. <span class="more">More ></span></p></div>
+            <li class="volunteers small-box">
+              <a href="/volunteers" class="title">Volunteers</a>
+              <div class="sub-text"><p><a href="/volunteers">Learn about the Canadians who volunteered with the International Brigades in Spain. <span class="more">More ></span></a></p></div>
             </li>
           </ul>
         </nav> 
@@ -223,7 +225,7 @@
       </aside> <!--- /sidebar secondary -->
     <?php endif; ?>
  
-
+</div><!-- /main-contenet-container -->
 
   <!-- Footer -->
   <div id="footer">

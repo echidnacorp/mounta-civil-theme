@@ -40,135 +40,46 @@ ul li.leaf {
 // Main Nav
 
 
-li a.active {
-  color: #000;
-}
 
-
-#navigation {
-
-  .block {
-    margin-bottom: 0;
-  }
+#navigation nav#main-menu {
 
   .block-menu .block-title,
   .block-menu-block .block-title {
     @include element-invisible();
   }
 
-  ul.links, /* Main menu and secondary menu links */
-  ul.menu { /* Menu block links */
-    margin: 0;
-    padding: 0;
-    text-align: left;
+  ul.links {
+    
+    li {
+      width: 20%;
+      float: left;
+      padding: 0;
+      text-align: center;
 
-    li { /* A simple method to get navigation links to appear in one line. */
-      margin: 0 2px;
-      list-style-type: none;
-      list-style-image: none;
-      background: #E3E3E3;
-      font-family: $font2;
-      a {
+      a{
+        background-color: lighten($colour3, 12%);
+        display: block;
+        border-right: 1px solid #fff;
+        padding: 1em 0;
+        color: $colour1;
+        font-family: $font2;
+        text-transform: uppercase;
         text-decoration: none;
+        background-position: right bottom;
+        @extend %transitions;
+        &.last {border-right: none;}
+
+        &:hover {
+          background-color: darken($colour1, 8%);
+          color: #fff;
+          background-image: url('../images/page-flip-hover.png');
+          background-position: right bottom;
+          background-repeat: no-repeat;
+        }
       }
     }
   }
-}
 
-.not-front #main-menu {
-  ul.links,
-  ul.menu {
-    li {
-      display: inline-block;
-      line-height: 1em;
-      padding: 0;
-      a {
-        text-transform: uppercase;
-        text-indent: -9999px;
-        display: block;
-        width: 129px;
-        height: 52px;
-      }
-    }
-
-    //introduction
-    li.menu-372 {
-      background: url('../images/mini-introduction.gif') no-repeat;
-      width: 127px;
-      height: 47px;
-      .active-trail {
-        background: url('../images/mini-introduction_roll.gif') no-repeat;
-      }
-      :hover {
-        @extend .active-trail;
-      }
-    }
-
-    //primary sources
-    li.menu-388 {
-      background: url('../images/mini-primary-sources.gif') no-repeat;
-      width: 74px;
-      height: 41px;
-      .active-trail {
-        background: url('../images/mini-primary-sources_roll.gif') no-repeat;
-      }
-      :hover {
-        @extend .active-trail;
-      }
-    }
-
-    //case studies
-    li.menu-376 {
-      background: url('../images/mini-case-studies.gif') no-repeat;
-      width: 115px;
-      height: 52px;
-      .active-trail {
-        background: url('../images/mini-case-studies_roll.gif') no-repeat;
-      }
-      :hover {
-        @extend .active-trail;
-      }
-    }
-
-    //teaching tools
-    li.menu-377 {
-      background: url('../images/mini-teaching-modules.gif') no-repeat;
-      width: 99px;
-      height: 51px;
-      .active-trail {
-        background: url('../images/mini-teaching-modules_roll.gif') no-repeat;
-      }
-      :hover {
-        @extend .active-trail;
-      }
-    }
-
-    //news
-    li.menu-406 {
-      background: url('../images/mini-news.gif') no-repeat;
-      width: 94px;
-      height: 47px;
-      .active-trail {
-        background: url('../images/mini-news_roll.gif') no-repeat;
-      }
-      :hover {
-        @extend .active-trail;
-      }
-    }
-
-    //participate
-    li.menu-378 {
-      background: url('../images/mini-participate.gif') no-repeat;
-      width: 129px;
-      height: 47px;
-      .active-trail {
-        background: url('../images/mini-participate_roll.gif') no-repeat;
-      }
-      :hover {
-        @extend .active-trail;
-      }
-    }    
-  }  
 }
 
 
@@ -187,24 +98,25 @@ li a.active {
     padding: 0;
 
     li { 
-    width: 28%;
+    width: 19.5%;
     float: left;
     margin: 0 2% 2% 0;
     padding: 2%;
     height: 250px;
     background-color: #eee;
 
-      &.case-studies,
-      &.participate {
+      &.teaching-tools,
+      &.volunteers{
         margin: 0 0 2% 0;
       }
 
       a.title {
         font-family: $font2;
-        font-size: 1.9em;
+        font-size: 1.7em;
         text-transform: uppercase;
         line-height: 1.2em;
         color: $colour1;
+        text-decoration: none;
       }
 
       .sub-text {
@@ -217,6 +129,11 @@ li a.active {
         -moz-transition: .4s ease-in-out opacity;
         -o-transition: .4s ease-in-out opacity;
         transition: .4s ease-in-out opacity;
+      }
+
+      .sub-text a {
+        color: #fff;
+        text-decoration: none;
       }
 
       span.more {
@@ -240,6 +157,7 @@ li a.active {
 
     li.small-box {
       height: 120px;
+      width: 45%;
 
       a.title {
         font-size: 1.2em;
@@ -282,37 +200,111 @@ li a.active {
   //Teaching Tools
   li.teaching-tools{
     background: url('../images/teaching-tools.jpg') no-repeat;
-    background-position: -4px -46px;
+    background-position: -4px 0px;
 
     &:hover {
       background: url('../images/teaching-tools-hover.jpg') no-repeat;
-      background-position: -4px -46px; 
+      background-position: -4px 0px; 
     }
   }
 
   //News
   li.news{
     background: url('../images/news.jpg') no-repeat;
-    background-position: -4px -46px;
+    background-position: -4px -4px;
 
     &:hover {
       background: url('../images/news-hover.jpg') no-repeat;
-      background-position: -4px -46px; 
+      background-position: -4px -4px; 
     }
   }
 
-  //Participate 
-  li.participate{
-    background: url('../images/participate.jpg') no-repeat;
-    background-position: -4px -89px;
+  //volunteers
+  li.volunteers{
+    background: url('../images/volunteer.jpg') no-repeat;
+    background-position: -4px -6px;
 
     &:hover {
-      background: url('../images/participate-hover.jpg') no-repeat;
-      background-position: -4px -89px; 
+      background: url('../images/volunteer-hover.jpg') no-repeat;
+      background-position: -4px -6px;
     }
   }
 }
 
+
+@media (max-width: 845px) {
+
+  .front #navigation.front-image-blocks {
+    ul.menu {
+      li {
+        width: 45%;
+
+        &.primary-resources, &.teaching-tools {
+          margin-right: 0;
+        }
+
+        //changes to red 
+        &.introduction {background: url('../images/introduction-hover2.jpg'); background-position: -8px 1px;}
+        &.primary-resources {background: url('../images/primary_resources-hover.jpg'); background-position: 0 -179px;}
+        &.case-studies {background: url('../images/case_studies_interviews-hover.jpg');}
+        &.teaching-tools {background: url('../images/teaching-tools-hover.jpg');}
+        &.news {background: url('../images/news-hover.jpg');}
+        &.volunteers {background: url('../images/volunteer-hover.jpg');}
+
+        .sub-text {opacity: 1;}
+        a.title {color: #fff;}
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .front #navigation.front-image-blocks ul.menu li.small-box {height: 136px;}
+}
+
+@media (max-width: 550px) {
+  .front #navigation.front-image-blocks ul.menu li.small-box {
+    height: auto; 
+    width: 100%; 
+    margin: 0 0 2% 0; 
+    padding: 0;
+
+    a.title {
+      padding: 10px;
+      display: block;
+    }
+
+    .sub-text {
+      padding: 0 10px 10px;
+        p{margin: 0;}
+    }
+  }
+}  
+
+@media (max-width: 405px) {
+
+  .front #navigation.front-image-blocks {
+    ul.menu li {
+      width: 100%;
+      margin: 0 0 4% 0;
+      height: auto;
+      padding: 0;
+
+      &.small-box {width: 100%; margin: 0 0 4% 0; height: auto; a.title{font-size: 1.7em} a.title{padding: 20px;} .sub-text{padding: 0 20px 20px;}}
+
+      a.title {
+        padding: 20px;
+        display: block;
+      }
+
+      .sub-text {
+        padding: 0 20px 20px;
+
+        p{margin: 0;}
+      }
+    }
+  }
+}
 
 
 
@@ -326,7 +318,7 @@ li a.active {
   ul.menu {
     margin: 0;
     padding: 0;
-    margin-left: 2.4em;
+    margin-left: 0;
     li {
       margin: 0 auto;
       display: inline;
@@ -338,7 +330,7 @@ li a.active {
         text-decoration: none;
         color: #696969;
         text-transform: uppercase;
-        font-size: 85%;
+        font-size: .835em;
         padding-right: .5em;
         margin-right: .3em;
         border-right: 1px solid #B7B7B7;
@@ -398,13 +390,18 @@ li a.active {
 
 //Sidebar Menu
 
-#navigation #secondary-menu {
-  margin-top: 4em;
+.block-menu-block {
 
-  ul.links {
+ ul {
+    margin: 0;
+    padding: 0;
+
     li {
+      list-style-image: none;
+      list-style: none;
       background: #fff;
       margin-bottom: .5em;
+      font-family: $font2;
       float: left;
       width: 100%;
       text-transform: uppercase;
@@ -418,6 +415,7 @@ li a.active {
         padding: .7em;
         display: block;
         color: $colour1;
+        text-decoration: none;
       }
 
       &:hover {

@@ -21,6 +21,11 @@ body {
   color: $colour2;
 }
 
+h1#page-title {
+  font-family: $font2;
+  font-size: 2.2em;
+}
+
 #page {
   font-family: $font1;
 }
@@ -43,6 +48,14 @@ body {
     color: #fff;
   }
 }
+
+
+
+
+
+
+
+
 
 
 /* ========================================================================== */
@@ -74,7 +87,7 @@ body {
 #name-and-slogan { /* Wrapper for website name and slogan */
   float: right;
   position: relative;
-  @extend %transitions;
+  //@extend %transitions;
 }
 
 
@@ -113,14 +126,13 @@ body {
 
 .site-slogan-container {
   background-repeat: no-repeat;
-  float: right;
+  float: left;
   width: 385px;
   margin-right: 1em;
-  @extend %transitions;
 }
 
 
-@media (max-width: 870px) { 
+@media (max-width: 875px) { 
 
   //logo
 
@@ -165,69 +177,70 @@ body {
   }
 }
 
-@media (max-width: 620px) { 
+
+@media (max-width: 640px) {  
+
+  .header__region {
+    float: left;
+    width: 20%;
+
+    #logo img {
+      height: 130px;
+      width: auto;
+    }
+  }
 
   #header hgroup {
-    padding: 0 0;
-  }
-
-  .header__region {
-    width: 100%;
-
-    #logo img {
-      width: 75px;
-      height: auto;
-    }
-  }
-
-  #site-name {
-    font-size: .8rem;
-    top: 1.5em;
-  }
-
-  #site-slogan {
-    font-size: .7em;
-    top: -53px;
-  }
-
-  #name-and-slogan {
-    width: 100%;
-
-    .site-slogan-container  {
-      margin-left: 0;
-      width: 47%;
-      height: 55px;
-      overflow: hidden;
-    }
-  }
-}
-
-@media (max-width: 480px) {
-
-  #block-delta-blocks-logo, #logo {
-    float: none;
-  } 
-
-  .header__region {
-    #logo img {
-      display: block;
-      margin: 0 auto;
-    }
+    width: 72%;
+    float: right;
+    margin: 2.8em 4% 0em 4%;
+    padding: 0;
   }
 
   #name-and-slogan .site-slogan-container {
     width: 100%;
+    margin-bottom: 0;
     margin-right: 0;
-    margin-bottom: 1em;
+    margin-left: 0;
+  }
 
-    #site-slogan {
-      float: none;
-      margin: 0 auto;
-      text-align: center;
-    }
+  #site-slogan {
+    margin: 0 auto;
+    float: none;
+    top: -59px;
+    text-align: center
+  }
+
+  #site-name {
+    width: 270px;
+    top: -45px;
+    float: none;
+    margin: 0 auto;
+    position: relative;
   }
 }
 
+@media (max-width: 530px) {  
+
+  .header__region #logo img {
+      height: auto;
+      width: 100%;
+  }
+}
+
+@media (max-width: 530px) { 
+  #header hgroup { margin: 1.8em 4% 0em 4%;}
+}
+
+@media (max-width: 450px) { 
+  #header hgroup { margin: 0.8em 4% 0em 4%;}
+  #site-name {width: 97%;}
+}
+
+@media (max-width: 405px) { 
+  #site-name {width: 100%; font-size: .7rem;}
+  #site-slogan {font-size: .7em; top: -54px;}
+}
 
 
 /* ========================================================================== */
@@ -236,7 +249,7 @@ body {
 
 
 #main {
-  margin-top: 4em;
+  margin-top: 0em;
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
@@ -430,6 +443,7 @@ ul.pager {
   #footer {
     clear: both;
     float: left;
+    width: 100%;
     margin-top: 2.5em;
     margin-bottom: 2em; 
   }

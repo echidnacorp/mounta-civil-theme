@@ -4,7 +4,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,400italic,800|Bitter:400,700,400italic|News+Cycle:400,700);
 /* line 64, ../sass/_custom.scss */
-#navigation #secondary-menu ul.links li {
+#navigation nav#main-menu ul.links li a, .block-menu-block ul li {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -37,176 +37,81 @@ ul li.leaf {
 }
 
 /* ========================================================================== */
-/* line 43, ../sass/navigation.scss */
-li a.active {
-  color: #000;
-}
-
-/* line 50, ../sass/navigation.scss */
-#navigation .block {
-  margin-bottom: 0;
-}
-/* line 54, ../sass/navigation.scss */
-#navigation .block-menu .block-title,
-#navigation .block-menu-block .block-title {
+/* line 46, ../sass/navigation.scss */
+#navigation nav#main-menu .block-menu .block-title,
+#navigation nav#main-menu .block-menu-block .block-title {
   position: absolute !important;
   height: 1px;
   width: 1px;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
+/* line 53, ../sass/navigation.scss */
+#navigation nav#main-menu ul.links li {
+  width: 20%;
+  float: left;
+  padding: 0;
+  text-align: center;
+}
 /* line 59, ../sass/navigation.scss */
-#navigation ul.links,
-#navigation ul.menu {
-  /* Menu block links */
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-/* line 65, ../sass/navigation.scss */
-#navigation ul.links li,
-#navigation ul.menu li {
-  /* A simple method to get navigation links to appear in one line. */
-  margin: 0 2px;
-  list-style-type: none;
-  list-style-image: none;
-  background: #E3E3E3;
-  font-family: "Bitter", "Times New Roman", serif;
-}
-/* line 71, ../sass/navigation.scss */
-#navigation ul.links li a,
-#navigation ul.menu li a {
-  text-decoration: none;
-}
-
-/* line 81, ../sass/navigation.scss */
-.not-front #main-menu ul.links li,
-.not-front #main-menu ul.menu li {
-  display: inline-block;
-  line-height: 1em;
-  padding: 0;
-}
-/* line 85, ../sass/navigation.scss */
-.not-front #main-menu ul.links li a,
-.not-front #main-menu ul.menu li a {
-  text-transform: uppercase;
-  text-indent: -9999px;
+#navigation nav#main-menu ul.links li a {
+  background-color: #ebebeb;
   display: block;
-  width: 129px;
-  height: 52px;
+  border-right: 1px solid #fff;
+  padding: 1em 0;
+  color: #c32222;
+  font-family: "Bitter", "Times New Roman", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-position: right bottom;
 }
-/* line 95, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-372,
-.not-front #main-menu ul.menu li.menu-372 {
-  background: url("../images/mini-introduction.gif") no-repeat;
-  width: 127px;
-  height: 47px;
+/* line 70, ../sass/navigation.scss */
+#navigation nav#main-menu ul.links li a.last {
+  border-right: none;
 }
-/* line 99, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-372 .active-trail, .not-front #main-menu ul.links li.menu-372 :hover,
-.not-front #main-menu ul.menu li.menu-372 .active-trail,
-.not-front #main-menu ul.menu li.menu-372 :hover {
-  background: url("../images/mini-introduction_roll.gif") no-repeat;
-}
-/* line 108, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-388,
-.not-front #main-menu ul.menu li.menu-388 {
-  background: url("../images/mini-primary-sources.gif") no-repeat;
-  width: 74px;
-  height: 41px;
-}
-/* line 112, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-388 .active-trail, .not-front #main-menu ul.links li.menu-388 :hover,
-.not-front #main-menu ul.menu li.menu-388 .active-trail,
-.not-front #main-menu ul.menu li.menu-388 :hover {
-  background: url("../images/mini-primary-sources_roll.gif") no-repeat;
-}
-/* line 121, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-376,
-.not-front #main-menu ul.menu li.menu-376 {
-  background: url("../images/mini-case-studies.gif") no-repeat;
-  width: 115px;
-  height: 52px;
-}
-/* line 125, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-376 .active-trail, .not-front #main-menu ul.links li.menu-376 :hover,
-.not-front #main-menu ul.menu li.menu-376 .active-trail,
-.not-front #main-menu ul.menu li.menu-376 :hover {
-  background: url("../images/mini-case-studies_roll.gif") no-repeat;
-}
-/* line 134, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-377,
-.not-front #main-menu ul.menu li.menu-377 {
-  background: url("../images/mini-teaching-modules.gif") no-repeat;
-  width: 99px;
-  height: 51px;
-}
-/* line 138, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-377 .active-trail, .not-front #main-menu ul.links li.menu-377 :hover,
-.not-front #main-menu ul.menu li.menu-377 .active-trail,
-.not-front #main-menu ul.menu li.menu-377 :hover {
-  background: url("../images/mini-teaching-modules_roll.gif") no-repeat;
-}
-/* line 147, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-406,
-.not-front #main-menu ul.menu li.menu-406 {
-  background: url("../images/mini-news.gif") no-repeat;
-  width: 94px;
-  height: 47px;
-}
-/* line 151, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-406 .active-trail, .not-front #main-menu ul.links li.menu-406 :hover,
-.not-front #main-menu ul.menu li.menu-406 .active-trail,
-.not-front #main-menu ul.menu li.menu-406 :hover {
-  background: url("../images/mini-news_roll.gif") no-repeat;
-}
-/* line 160, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-378,
-.not-front #main-menu ul.menu li.menu-378 {
-  background: url("../images/mini-participate.gif") no-repeat;
-  width: 129px;
-  height: 47px;
-}
-/* line 164, ../sass/navigation.scss */
-.not-front #main-menu ul.links li.menu-378 .active-trail, .not-front #main-menu ul.links li.menu-378 :hover,
-.not-front #main-menu ul.menu li.menu-378 .active-trail,
-.not-front #main-menu ul.menu li.menu-378 :hover {
-  background: url("../images/mini-participate_roll.gif") no-repeat;
+/* line 72, ../sass/navigation.scss */
+#navigation nav#main-menu ul.links li a:hover {
+  background-color: #a01c1c;
+  color: #fff;
+  background-image: url("../images/page-flip-hover.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 /* ========================================================================== */
-/* line 182, ../sass/navigation.scss */
+/* line 93, ../sass/navigation.scss */
 .front #navigation.front-image-blocks {
   float: left;
 }
-/* line 185, ../sass/navigation.scss */
+/* line 96, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu {
   /* Menu block links */
   margin: 0;
   padding: 0;
 }
-/* line 189, ../sass/navigation.scss */
+/* line 100, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li {
-  width: 28%;
+  width: 19.5%;
   float: left;
   margin: 0 2% 2% 0;
   padding: 2%;
   height: 250px;
   background-color: #eee;
 }
-/* line 197, ../sass/navigation.scss */
-.front #navigation.front-image-blocks ul.menu li.case-studies, .front #navigation.front-image-blocks ul.menu li.participate {
+/* line 108, ../sass/navigation.scss */
+.front #navigation.front-image-blocks ul.menu li.teaching-tools, .front #navigation.front-image-blocks ul.menu li.volunteers {
   margin: 0 0 2% 0;
 }
-/* line 202, ../sass/navigation.scss */
+/* line 113, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li a.title {
   font-family: "Bitter", "Times New Roman", serif;
-  font-size: 1.9em;
+  font-size: 1.7em;
   text-transform: uppercase;
   line-height: 1.2em;
   color: #c32222;
+  text-decoration: none;
 }
-/* line 210, ../sass/navigation.scss */
+/* line 122, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li .sub-text {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #fff;
@@ -217,101 +122,219 @@ li a.active {
   -o-transition: .4s ease-in-out opacity;
   transition: .4s ease-in-out opacity;
 }
-/* line 222, ../sass/navigation.scss */
+/* line 134, ../sass/navigation.scss */
+.front #navigation.front-image-blocks ul.menu li .sub-text a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 139, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li span.more {
   font-family: "Bitter", "Times New Roman", serif;
   font-weight: bold;
   display: block;
   margin-top: 1em;
 }
-/* line 230, ../sass/navigation.scss */
+/* line 147, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li:hover a.title {
   color: #fff;
 }
-/* line 234, ../sass/navigation.scss */
+/* line 151, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li:hover .sub-text {
   opacity: 1;
 }
-/* line 241, ../sass/navigation.scss */
+/* line 158, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li.small-box {
   height: 120px;
+  width: 45%;
 }
-/* line 244, ../sass/navigation.scss */
+/* line 162, ../sass/navigation.scss */
 .front #navigation.front-image-blocks ul.menu li.small-box a.title {
   font-size: 1.2em;
 }
-/* line 252, ../sass/navigation.scss */
+/* line 170, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.introduction {
   background: url("../images/introduction.jpg") no-repeat;
   background-position: -21px -12px;
 }
-/* line 256, ../sass/navigation.scss */
+/* line 174, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.introduction:hover {
   background: url("../images/introduction-hover.jpg") no-repeat;
   background-position: -21px -12px;
 }
-/* line 263, ../sass/navigation.scss */
+/* line 181, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.primary-resources {
   background: url("../images/primary_resources.jpg") no-repeat;
   background-position: -95px -148px;
 }
-/* line 267, ../sass/navigation.scss */
+/* line 185, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.primary-resources:hover {
   background: url("../images/primary_resources-hover.jpg") no-repeat;
   background-position: -95px -148px;
 }
-/* line 274, ../sass/navigation.scss */
+/* line 192, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.case-studies {
   background: url("../images/case_studies_interviews.jpg") no-repeat;
 }
-/* line 277, ../sass/navigation.scss */
+/* line 195, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.case-studies:hover {
   background: url("../images/case_studies_interviews-hover.jpg") no-repeat;
 }
-/* line 283, ../sass/navigation.scss */
+/* line 201, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.teaching-tools {
   background: url("../images/teaching-tools.jpg") no-repeat;
-  background-position: -4px -46px;
+  background-position: -4px 0px;
 }
-/* line 287, ../sass/navigation.scss */
+/* line 205, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.teaching-tools:hover {
   background: url("../images/teaching-tools-hover.jpg") no-repeat;
-  background-position: -4px -46px;
+  background-position: -4px 0px;
 }
-/* line 294, ../sass/navigation.scss */
+/* line 212, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.news {
   background: url("../images/news.jpg") no-repeat;
-  background-position: -4px -46px;
+  background-position: -4px -4px;
 }
-/* line 298, ../sass/navigation.scss */
+/* line 216, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.news:hover {
   background: url("../images/news-hover.jpg") no-repeat;
-  background-position: -4px -46px;
+  background-position: -4px -4px;
 }
-/* line 305, ../sass/navigation.scss */
-.front #navigation.front-image-blocks li.participate {
-  background: url("../images/participate.jpg") no-repeat;
-  background-position: -4px -89px;
+/* line 223, ../sass/navigation.scss */
+.front #navigation.front-image-blocks li.volunteers {
+  background: url("../images/volunteer.jpg") no-repeat;
+  background-position: -4px -6px;
 }
-/* line 309, ../sass/navigation.scss */
-.front #navigation.front-image-blocks li.participate:hover {
-  background: url("../images/participate-hover.jpg") no-repeat;
-  background-position: -4px -89px;
+/* line 227, ../sass/navigation.scss */
+.front #navigation.front-image-blocks li.volunteers:hover {
+  background: url("../images/volunteer-hover.jpg") no-repeat;
+  background-position: -4px -6px;
 }
 
+@media (max-width: 845px) {
+  /* line 239, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li {
+    width: 45%;
+  }
+  /* line 242, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.primary-resources, .front #navigation.front-image-blocks ul.menu li.teaching-tools {
+    margin-right: 0;
+  }
+  /* line 247, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.introduction {
+    background: url("../images/introduction-hover2.jpg");
+    background-position: -8px 1px;
+  }
+  /* line 248, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.primary-resources {
+    background: url("../images/primary_resources-hover.jpg");
+    background-position: 0 -179px;
+  }
+  /* line 249, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.case-studies {
+    background: url("../images/case_studies_interviews-hover.jpg");
+  }
+  /* line 250, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.teaching-tools {
+    background: url("../images/teaching-tools-hover.jpg");
+  }
+  /* line 251, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.news {
+    background: url("../images/news-hover.jpg");
+  }
+  /* line 252, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.volunteers {
+    background: url("../images/volunteer-hover.jpg");
+  }
+  /* line 254, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li .sub-text {
+    opacity: 1;
+  }
+  /* line 255, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li a.title {
+    color: #fff;
+  }
+}
+@media (max-width: 760px) {
+  /* line 262, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box {
+    height: 136px;
+  }
+}
+@media (max-width: 550px) {
+  /* line 266, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box {
+    height: auto;
+    width: 100%;
+    margin: 0 0 2% 0;
+    padding: 0;
+  }
+  /* line 272, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box a.title {
+    padding: 10px;
+    display: block;
+  }
+  /* line 277, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box .sub-text {
+    padding: 0 10px 10px;
+  }
+  /* line 279, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box .sub-text p {
+    margin: 0;
+  }
+}
+@media (max-width: 405px) {
+  /* line 287, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li {
+    width: 100%;
+    margin: 0 0 4% 0;
+    height: auto;
+    padding: 0;
+  }
+  /* line 293, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box {
+    width: 100%;
+    margin: 0 0 4% 0;
+    height: auto;
+  }
+  /* line 293, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box a.title {
+    font-size: 1.7em;
+  }
+  /* line 293, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box a.title {
+    padding: 20px;
+  }
+  /* line 293, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li.small-box .sub-text {
+    padding: 0 20px 20px;
+  }
+  /* line 295, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li a.title {
+    padding: 20px;
+    display: block;
+  }
+  /* line 300, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li .sub-text {
+    padding: 0 20px 20px;
+  }
+  /* line 303, ../sass/navigation.scss */
+  .front #navigation.front-image-blocks ul.menu li .sub-text p {
+    margin: 0;
+  }
+}
 /* ========================================================================== */
-/* line 323, ../sass/navigation.scss */
+/* line 315, ../sass/navigation.scss */
 #block-menu-menu-footer-menu {
   float: right;
   width: 100%;
 }
-/* line 326, ../sass/navigation.scss */
+/* line 318, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu {
   margin: 0;
   padding: 0;
-  margin-left: 2.4em;
+  margin-left: 0;
 }
-/* line 330, ../sass/navigation.scss */
+/* line 322, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li {
   margin: 0 auto;
   display: inline;
@@ -320,21 +343,21 @@ li a.active {
   list-style-type: none;
   list-style-image: none;
 }
-/* line 337, ../sass/navigation.scss */
+/* line 329, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a {
   text-decoration: none;
   color: #696969;
   text-transform: uppercase;
-  font-size: 85%;
+  font-size: .835em;
   padding-right: .5em;
   margin-right: .3em;
   border-right: 1px solid #B7B7B7;
 }
-/* line 346, ../sass/navigation.scss */
+/* line 338, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li a:hover {
   color: #db2e2e;
 }
-/* line 350, ../sass/navigation.scss */
+/* line 342, ../sass/navigation.scss */
 #block-menu-menu-footer-menu ul.menu li.last a {
   border: 0;
   margin-right: 0;
@@ -343,11 +366,11 @@ li a.active {
 }
 
 @media (max-width: 960px) {
-  /* line 362, ../sass/navigation.scss */
+  /* line 354, ../sass/navigation.scss */
   #block-menu-menu-footer-menu ul.menu {
     margin-left: 2%;
   }
-  /* line 365, ../sass/navigation.scss */
+  /* line 357, ../sass/navigation.scss */
   #block-menu-menu-footer-menu ul.menu li {
     width: 31%;
     margin-right: 2%;
@@ -355,7 +378,7 @@ li a.active {
     text-align: left;
     border-bottom: 1px solid #E8E8E8;
   }
-  /* line 372, ../sass/navigation.scss */
+  /* line 364, ../sass/navigation.scss */
   #block-menu-menu-footer-menu ul.menu li a {
     margin-right: 0;
     padding-right: 0;
@@ -363,25 +386,29 @@ li a.active {
   }
 }
 @media (max-width: 620px) {
-  /* line 385, ../sass/navigation.scss */
+  /* line 377, ../sass/navigation.scss */
   #block-menu-menu-footer-menu ul.menu {
     margin-left: 0;
   }
-  /* line 387, ../sass/navigation.scss */
+  /* line 379, ../sass/navigation.scss */
   #block-menu-menu-footer-menu ul.menu li {
     width: 100%;
     margin-right: 0;
   }
 }
 /* ========================================================================== */
-/* line 401, ../sass/navigation.scss */
-#navigation #secondary-menu {
-  margin-top: 4em;
+/* line 395, ../sass/navigation.scss */
+.block-menu-block ul {
+  margin: 0;
+  padding: 0;
 }
-/* line 405, ../sass/navigation.scss */
-#navigation #secondary-menu ul.links li {
+/* line 399, ../sass/navigation.scss */
+.block-menu-block ul li {
+  list-style-image: none;
+  list-style: none;
   background: #fff;
   margin-bottom: .5em;
+  font-family: "Bitter", "Times New Roman", serif;
   float: left;
   width: 100%;
   text-transform: uppercase;
@@ -390,29 +417,18 @@ li a.active {
   margin: 0 0 .7em 0;
   border: 1px solid #cccccc;
 }
-/* line 417, ../sass/navigation.scss */
-#navigation #secondary-menu ul.links li a {
+/* line 414, ../sass/navigation.scss */
+.block-menu-block ul li a {
   padding: .7em;
   display: block;
   color: #c32222;
+  text-decoration: none;
 }
-/* line 423, ../sass/navigation.scss */
-#navigation #secondary-menu ul.links li:hover {
+/* line 421, ../sass/navigation.scss */
+.block-menu-block ul li:hover {
   background: #fafafa;
 }
-/* line 427, ../sass/navigation.scss */
-#navigation #secondary-menu ul.links li.active-trail, #navigation #secondary-menu .not-front #main-menu ul.links li.menu-372 li:hover, .not-front #main-menu #navigation #secondary-menu ul.links li.menu-372 li:hover,
-#navigation #secondary-menu ul.links .not-front #main-menu ul.menu li.menu-372 li:hover,
-.not-front #main-menu ul.menu li.menu-372 #navigation #secondary-menu ul.links li:hover, #navigation #secondary-menu .not-front #main-menu ul.links li.menu-388 li:hover, .not-front #main-menu #navigation #secondary-menu ul.links li.menu-388 li:hover,
-#navigation #secondary-menu ul.links .not-front #main-menu ul.menu li.menu-388 li:hover,
-.not-front #main-menu ul.menu li.menu-388 #navigation #secondary-menu ul.links li:hover, #navigation #secondary-menu .not-front #main-menu ul.links li.menu-376 li:hover, .not-front #main-menu #navigation #secondary-menu ul.links li.menu-376 li:hover,
-#navigation #secondary-menu ul.links .not-front #main-menu ul.menu li.menu-376 li:hover,
-.not-front #main-menu ul.menu li.menu-376 #navigation #secondary-menu ul.links li:hover, #navigation #secondary-menu .not-front #main-menu ul.links li.menu-377 li:hover, .not-front #main-menu #navigation #secondary-menu ul.links li.menu-377 li:hover,
-#navigation #secondary-menu ul.links .not-front #main-menu ul.menu li.menu-377 li:hover,
-.not-front #main-menu ul.menu li.menu-377 #navigation #secondary-menu ul.links li:hover, #navigation #secondary-menu .not-front #main-menu ul.links li.menu-406 li:hover, .not-front #main-menu #navigation #secondary-menu ul.links li.menu-406 li:hover,
-#navigation #secondary-menu ul.links .not-front #main-menu ul.menu li.menu-406 li:hover,
-.not-front #main-menu ul.menu li.menu-406 #navigation #secondary-menu ul.links li:hover, #navigation #secondary-menu .not-front #main-menu ul.links li.menu-378 li:hover, .not-front #main-menu #navigation #secondary-menu ul.links li.menu-378 li:hover,
-#navigation #secondary-menu ul.links .not-front #main-menu ul.menu li.menu-378 li:hover,
-.not-front #main-menu ul.menu li.menu-378 #navigation #secondary-menu ul.links li:hover {
+/* line 425, ../sass/navigation.scss */
+.block-menu-block ul li.active-trail {
   border: 2px solid #c32222;
 }
