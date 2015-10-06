@@ -659,3 +659,43 @@ th {
 tbody {
   border-top: none;
 }
+
+
+
+/* =============================================================================
+    CONTEXUAL LINKS
+   ========================================================================== */
+
+.contextual-links-wrapper {
+  ul li {
+    border: none !important;
+    font-family: $font1 !important;
+    text-transform: none !important;
+    border-bottom: 1px solid #eee !important;
+    margin: 0 !important;
+
+    a{
+      padding: .2em !important;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -56,6 +56,24 @@ ul li.leaf {
       padding: 0;
       text-align: center;
 
+      //changing widths specifically for differing word lengths
+
+      //introduction
+      &.menu-372 {}
+
+      //case studies
+      &.menu-376 {}
+
+      //teaching modules
+      &.menu-377 {}
+
+      //news
+      &.menu-406 {}
+
+      //volunteers
+      &.menu-674 {}
+
+
       a{
         background-color: lighten($colour3, 12%);
         display: block;
@@ -69,6 +87,7 @@ ul li.leaf {
         @extend %transitions;
         &.last {border-right: none;}
 
+        &.active-trail,
         &:hover {
           background-color: darken($colour1, 8%);
           color: #fff;

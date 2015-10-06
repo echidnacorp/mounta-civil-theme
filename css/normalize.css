@@ -671,3 +671,19 @@ th {
 tbody {
   border-top: none;
 }
+
+/* =============================================================================
+    CONTEXUAL LINKS
+   ========================================================================== */
+/* line 670, ../sass/normalize.scss */
+.contextual-links-wrapper ul li {
+  border: none !important;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  text-transform: none !important;
+  border-bottom: 1px solid #eee !important;
+  margin: 0 !important;
+}
+/* line 677, ../sass/normalize.scss */
+.contextual-links-wrapper ul li a {
+  padding: .2em !important;
+}
