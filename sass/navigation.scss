@@ -199,22 +199,22 @@ ul li.leaf {
 
   //Teaching Tools
   li.teaching-tools{
-    background: url('../images/teaching-tools.jpg') no-repeat;
+    background: url('../images/teaching-tools1.jpg') no-repeat;
     background-position: -4px 0px;
 
     &:hover {
-      background: url('../images/teaching-tools-hover.jpg') no-repeat;
+      background: url('../images/teaching-tools-hover1.jpg') no-repeat;
       background-position: -4px 0px; 
     }
   }
 
   //News
   li.news{
-    background: url('../images/news.jpg') no-repeat;
+    background: url('../images/news1.jpg') no-repeat;
     background-position: -4px -4px;
 
     &:hover {
-      background: url('../images/news-hover.jpg') no-repeat;
+      background: url('../images/news-hover1.jpg') no-repeat;
       background-position: -4px -4px; 
     }
   }
@@ -247,8 +247,8 @@ ul li.leaf {
         &.introduction {background: url('../images/introduction-hover2.jpg'); background-position: -8px 1px;}
         &.primary-resources {background: url('../images/primary_resources-hover.jpg'); background-position: 0 -179px;}
         &.case-studies {background: url('../images/case_studies_interviews-hover.jpg');}
-        &.teaching-tools {background: url('../images/teaching-tools-hover.jpg');}
-        &.news {background: url('../images/news-hover.jpg');}
+        &.teaching-tools {background: url('../images/teaching-tools-hover1.jpg');}
+        &.news {background: url('../images/news-hover1.jpg');}
         &.volunteers {background: url('../images/volunteer-hover.jpg');}
 
         .sub-text {opacity: 1;}

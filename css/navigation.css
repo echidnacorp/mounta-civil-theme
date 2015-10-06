@@ -181,22 +181,22 @@ ul li.leaf {
 }
 /* line 201, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.teaching-tools {
-  background: url("../images/teaching-tools.jpg") no-repeat;
+  background: url("../images/teaching-tools1.jpg") no-repeat;
   background-position: -4px 0px;
 }
 /* line 205, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.teaching-tools:hover {
-  background: url("../images/teaching-tools-hover.jpg") no-repeat;
+  background: url("../images/teaching-tools-hover1.jpg") no-repeat;
   background-position: -4px 0px;
 }
 /* line 212, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.news {
-  background: url("../images/news.jpg") no-repeat;
+  background: url("../images/news1.jpg") no-repeat;
   background-position: -4px -4px;
 }
 /* line 216, ../sass/navigation.scss */
 .front #navigation.front-image-blocks li.news:hover {
-  background: url("../images/news-hover.jpg") no-repeat;
+  background: url("../images/news-hover1.jpg") no-repeat;
   background-position: -4px -4px;
 }
 /* line 223, ../sass/navigation.scss */
@@ -235,11 +235,11 @@ ul li.leaf {
   }
   /* line 250, ../sass/navigation.scss */
   .front #navigation.front-image-blocks ul.menu li.teaching-tools {
-    background: url("../images/teaching-tools-hover.jpg");
+    background: url("../images/teaching-tools-hover1.jpg");
   }
   /* line 251, ../sass/navigation.scss */
   .front #navigation.front-image-blocks ul.menu li.news {
-    background: url("../images/news-hover.jpg");
+    background: url("../images/news-hover1.jpg");
   }
   /* line 252, ../sass/navigation.scss */
   .front #navigation.front-image-blocks ul.menu li.volunteers {
