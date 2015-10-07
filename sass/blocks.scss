@@ -8,6 +8,7 @@
 
 .block { /* Block wrapper */
   margin-bottom: 1.5em;
+  float: left;
 
   &.first { /* The first block in the region */
   }
@@ -21,7 +22,9 @@
   &.even { /* Zebra striping for each block in the region */
   }
 
-  h2.block-title { /* Block title */
+  h2.block-title { 
+    line-height: 20px;
+    margin-bottom: .5em;
   }
 }
 
@@ -118,4 +121,11 @@
   .form-text {
     width: 35%;
   } 
+}
+
+
+@media all and (max-width: 600px) {
+  .block {
+    width: 100%;
+  }
 }

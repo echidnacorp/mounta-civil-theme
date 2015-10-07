@@ -43,10 +43,6 @@ $zen-auto-include-item-base: false;
 margin-top: 2em;
 }
 
-.not-front #header hgroup {
-  padding: 2.7em 0 0.5em;
-}
-
 .main-content-container,
 #page,
 .region-bottom {
@@ -81,6 +77,7 @@ margin-top: 2em;
 #footer {
   @include zen-grid-container();
 }
+
 
 
 /* ========================================================================== */
@@ -143,66 +140,6 @@ margin-top: 2em;
     }
   }
 
-}
-
-
-
-/* ========================================================================== */
-
-//Smaller Screens
-
-@media all and (min-width: 600px) and (max-width: 959px) {
-
-
-  //NONE
-
-   .no-sidebars {
-    #main {
-      clear: both;
-    }
-   }
-
-   //ONE SIDEBAR
-
-   .one-sidebar.sidebar-first {
-
-    #main { /* Span 2 columns, starting in 2nd column from left. */
-      @include zen-grid-item(3, 2);
-    }
-
-    aside.sidebar.primary { /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 1);
-    }
-  }
-
-    .one-sidebar.sidebar-second {
-
-    #main { /* Span 2 columns, starting in 2nd column from left. */
-      @include zen-grid-item(3, 1);
-    }
-
-    aside.sidebar.secondary{ /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 4);
-    }
-  }
-
-
-  //TWO
-
-  .two-sidebars {
-
-    #main { /* Span 2 columns, starting in 2nd column from left. */
-      @include zen-grid-item(2, 2);
-    }
-
-    aside.sidebar.primary { /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 1);
-    }
-    
-    aside.sidebar.secondary{ /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 4);
-    } 
-  }
 }
 
 
@@ -292,6 +229,85 @@ margin-top: 2em;
 
 
 
+
+/* ========================================================================== */
+
+//Smaller Screens
+
+@media all and (min-width: 600px) and (max-width: 959px) {
+
+
+  //NONE
+
+   .no-sidebars {
+    #main {
+      clear: both;
+    }
+   }
+
+   //ONE SIDEBAR
+
+   .one-sidebar.sidebar-first {
+
+    #main { /* Span 2 columns, starting in 2nd column from left. */
+      @include zen-grid-item(3, 2);
+    }
+
+    aside.sidebar.primary { /* Span 1 column, starting in 1st column from left. */
+      @include zen-grid-item(1, 1);
+    }
+  }
+
+    .one-sidebar.sidebar-second {
+
+    #main { /* Span 2 columns, starting in 2nd column from left. */
+      @include zen-grid-item(3, 1);
+    }
+
+    aside.sidebar.secondary{ /* Span 1 column, starting in 1st column from left. */
+      @include zen-grid-item(1, 4);
+    }
+  }
+
+
+  //TWO
+
+  .two-sidebars {
+
+    #main { /* Span 2 columns, starting in 2nd column from left. */
+      @include zen-grid-item(2, 2);
+    }
+
+    aside.sidebar.primary { /* Span 1 column, starting in 1st column from left. */
+      @include zen-grid-item(1, 1);
+    }
+    
+    aside.sidebar.secondary{ /* Span 1 column, starting in 1st column from left. */
+      @include zen-grid-item(1, 4);
+    } 
+  }
+}
+
+
+
+
+@media all and (max-width: 600px) {
+
+    #main { /* Span 2 columns, starting in 2nd column from left. */
+      @include zen-grid-item(4, 1);
+      clear: both;
+    }
+
+    aside.sidebar.primary { /* Span 1 column, starting in 1st column from left. */
+      @include zen-grid-item(4, 1);
+      clear: both;
+    }
+    
+    aside.sidebar.secondary{ /* Span 1 column, starting in 1st column from left. */
+      @include zen-grid-item(4, 1);
+      clear: both;
+    } 
+}
 
 
 

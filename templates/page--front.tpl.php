@@ -129,7 +129,7 @@
           <ul class="menu">
             <li class="introduction">
               <a href="/node/1" class="title">Introduction</a>
-              <div class="sub-text"><p><a href="/node/1">It is a long established fact that a reader will be distracted. <span class="more">More ></span></a></p></div>
+              <div class="sub-text"><p><a href="/node/1">Welcome to the Virtual Research Environment on Canada’s cultural involvement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
             </li>
             <li class="primary-resources">
               <a href="/islandora/object/emic:cscw" class="title">Primary Resources</a>
