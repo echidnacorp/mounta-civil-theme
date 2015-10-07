@@ -60,27 +60,32 @@ ul li.leaf {
 
       //introduction
       &.menu-372 {
+        width: 16%;
+      }
+
+      //primary sources
+      &.menu-664 {
         width: 18%;
       }
 
       //case studies
       &.menu-376 {
-        width: 30%;
+        width: 25%;
       }
 
       //teaching modules
       &.menu-377 {
-        width: 22%;
+        width: 18%;
       }
 
       //news
       &.menu-406 {
-        width: 12%;
+        width: 9%;
       }
 
       //volunteers
       &.menu-663 {
-        width: 17%;
+        width: 13%;
       }
 
 
@@ -88,6 +93,7 @@ ul li.leaf {
         background-color: lighten($colour3, 12%);
         display: block;
         border-right: 1px solid #fff;
+        font-size: 1em;
         padding: 1em 0;
         color: $colour1;
         font-family: $font2;
@@ -109,10 +115,8 @@ ul li.leaf {
     }
   }
 
-  @media (max-width: 735px){
-      li a {
-        font-size: .8em;
-      }
+  @media (max-width: 900px){
+      li a {font-size: .8em !important;}
   }
 
 }

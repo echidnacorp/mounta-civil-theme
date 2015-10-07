@@ -134,6 +134,10 @@ h1#page-title {
 
 @media (max-width: 875px) { 
 
+  #header hgroup {
+    padding: 2.7em 0 0;
+  }
+
   //logo
 
   .header__region {
@@ -158,6 +162,7 @@ h1#page-title {
     width: 42%;
     margin-right: 2%;
     margin-left: 5%;
+    position: absolute;
 
     svg {
       width: 100%;
@@ -169,14 +174,9 @@ h1#page-title {
   }
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 750px) {#site-name {font-size: 1rem; top: 1em;}}
 
-  #site-name {
-    font-size: 1rem;
-    top: 1em;
-  }
-}
-
+@media (max-width: 750px) and (min-width: 734px) { #site-name {width: 49%;}}
 
 @media (max-width: 640px) {  
 
@@ -213,7 +213,7 @@ h1#page-title {
 
   #site-name {
     width: 270px;
-    top: -45px;
+    top: 70px;
     float: none;
     margin: 0 auto;
     position: relative;
@@ -237,9 +237,16 @@ h1#page-title {
   #site-name {width: 97%;}
 }
 
-@media (max-width: 405px) { 
-  #site-name {width: 100%; font-size: .7rem;}
+@media (max-width: 405px) {
+  #header hgroup { margin: 1.5em 4% 0em 4%;}
+  #site-name {width: 90%; font-size: .7rem; top: 55px;}
   #site-slogan {font-size: .7em; top: -54px;}
+}
+
+@media (max-width: 345px) {
+  #header hgroup { margin: .8em 4% 0em 4%;}
+  #site-name {width: 100%; font-size: .7rem; top: 55px;}
+
 }
 
 
