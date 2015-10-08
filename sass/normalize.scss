@@ -274,7 +274,13 @@ strong {
 
 blockquote {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: rhythm(1) $indent-amount;
+  margin: 1.5em 0 1.5em 0;
+  padding-left: 1.5em;
+  border-left: 5px solid $colour1;
+  color: $colour1;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
 }
 
 /*
@@ -393,6 +399,7 @@ sub {
    .red {
     color: $colour1;
    }
+
 
 
 
