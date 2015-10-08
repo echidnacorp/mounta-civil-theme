@@ -149,7 +149,7 @@ ul li.leaf {
   background-image: url("../images/arrow-up.png");
 }
 
-@media (max-width: 600px) {
+@media (max-width: 690px) {
   /* line 165, ../sass/navigation.scss */
   .menu-button .touch-button .navicon {
     font-size: 10px !important;

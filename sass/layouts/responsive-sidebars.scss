@@ -116,7 +116,7 @@ margin-top: 2em;
 
 //spacing for content for smaller screens
 
-@media (max-width: 600px) {
+@media (max-width: 690px) {
 
   .two-sidebars {
     #main #content {
@@ -234,7 +234,7 @@ margin-top: 2em;
 
 //Smaller Screens
 
-@media all and (min-width: 600px) and (max-width: 959px) {
+@media all and (min-width: 690px) and (max-width: 959px) {
 
 
   //NONE
@@ -291,7 +291,7 @@ margin-top: 2em;
 
 
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 690px) {
 
     #main { /* Span 2 columns, starting in 2nd column from left. */
       @include zen-grid-item(4, 1);

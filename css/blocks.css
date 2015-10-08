@@ -180,7 +180,7 @@
   width: 35%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 690px) {
   /* line 128, ../sass/blocks.scss */
   .block {
     width: 100%;

@@ -136,7 +136,7 @@
             'links' => $main_menu,
             'attributes' => array(
               'class' => array('links', 'inline', 'clearfix','flexnav'),
-              'data-breakpoint' => ('600'),
+              'data-breakpoint' => ('690'),
             ), 
             'heading' => array(
               'text' => t('Main menu'),

@@ -99,7 +99,7 @@
       top: 1em;
       color: #666; }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 690px) {
   body.one-page {
     padding-top: 70px; }
 
