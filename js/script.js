@@ -12,15 +12,12 @@
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
 
-    var mouseover = function() {
-        $(this).find('.info').fadeIn(200);
-    };
 
-    var mouseout = function() {
-        $(this).find('.info').fadeOut(200);
-    };
+	$(function() {
+		$(".flexnav").flexNav();
+	});
 
-    $('.project a').hover(mouseover, mouseout);
+	$( "#navigation" ).appendAround();
 
 
 })(jQuery, Drupal, this, this.document);

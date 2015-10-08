@@ -93,6 +93,7 @@ ul li.leaf {
         background-color: lighten($colour3, 12%);
         display: block;
         border-right: 1px solid #fff;
+        border-left: none;
         font-size: 1em;
         padding: 1em 0;
         color: $colour1;
@@ -118,8 +119,78 @@ ul li.leaf {
   @media (max-width: 900px){
       li a {font-size: .8em !important;}
   }
-
 }
+
+//Mobile Flexnav
+
+    .menu-button {
+      background: darken($colour1, 8%) !important;
+      padding: 1em !important;
+      text-transform: uppercase;
+      border-bottom: 1px solid #fff !important;
+      font-family: $font2;
+      color: #fff !important;
+      @extend %transitions;
+
+      &:before {
+        content: '';
+        background-image: url('../images/menu-icon.png');
+        height: 20px;
+        width: 20px;
+        float: left;
+        margin-right: .7em;
+      }
+
+      &.active {
+       background: darken($colour1, 20%) !important;
+      }
+    }
+
+    .touch-button .navicon {
+      background-image: url('../images/arrow-down.png');
+      background-repeat: no-repeat;
+      width: 35px;
+      height: 23px;
+      float: left;
+      background-size: 16px;
+      background-position: right center;
+    }
+
+    .touch-button.active .navicon {
+      background-image: url('../images/arrow-up.png');
+    }
+
+  @media (max-width: 600px){ 
+
+    .menu-button .touch-button .navicon {font-size: 10px !important; color: #fff !important; top: 1.3em !important;}
+
+    .not-front #navigation nav#main-menu ul.links {
+      margin: 0;
+
+      &.flexnav {
+        display: none;
+      }
+
+      &.flexnav.flexnav-show {
+        display: block;
+      }
+
+      li {
+        width: 100% !important;
+        text-align: left;
+
+        a{
+          border-bottom: 1px solid #fff;
+          padding: 1em;
+
+          &:hover, &.active-trail {
+            background-image: none;
+          }
+        }
+      }
+    }
+  }
+
 
 
 
@@ -463,6 +534,7 @@ ul li.leaf {
 
       &.active-trail {
         border: 2px solid $colour1;
+        box-sizing: border-box;
       }
     }
   }
@@ -471,13 +543,19 @@ ul li.leaf {
 
 
 
+.test-nav-container {
+  display: none;
+}
 
+@media (max-width: 600px) {
+  .test-nav-container {
+    display: block;
+  }
 
-
-
-
-
-
+  #navigation{
+    //display: none;
+  }
+}
 
 
 

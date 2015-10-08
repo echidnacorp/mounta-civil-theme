@@ -124,7 +124,7 @@
   <!-- front block navigation -->
 
     <div id="navigation" class="front-image-blocks">
-
+      
         <nav id="main-menu" role="navigation">
           <ul class="menu">
             <li class="introduction">

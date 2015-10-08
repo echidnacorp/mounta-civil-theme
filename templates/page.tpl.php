@@ -122,10 +122,11 @@
 
 
   <!-- navigation primary menu -->
-  <div id="navigation">
+  <div id="navigation" data-set="mobile-nav-container-data">
 
     <?php if ($main_menu): ?>
       <nav id="main-menu" role="navigation">
+      <div class="menu-button">Main Menu</div>
         <?php
           // This code snippet is hard to modify. We recommend turning off the
           // "Main menu" on your sub-theme's settings form, deleting this PHP
@@ -134,8 +135,9 @@
           print theme('links__system_main_menu', array(
             'links' => $main_menu,
             'attributes' => array(
-              'class' => array('links', 'inline', 'clearfix'),
-            ),
+              'class' => array('links', 'inline', 'clearfix','flexnav'),
+              'data-breakpoint' => ('600'),
+            ), 
             'heading' => array(
               'text' => t('Main menu'),
               'level' => 'h2',
@@ -163,6 +165,7 @@
     <aside class="sidebar primary">
       
         <?php print $sidebar_first; ?>
+
     </aside> <!--- /sidebar primary-->
     <?php endif; ?>
     
