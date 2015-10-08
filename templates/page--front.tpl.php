@@ -128,24 +128,24 @@
         <nav id="main-menu" role="navigation">
           <ul class="menu">
             <li class="introduction">
-              <a href="/node/1" class="title">Introduction</a>
-              <div class="sub-text"><p><a href="/node/1">Welcome to the Virtual Research Environment on Canada’s cultural involvement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
+              <a href="introduction" class="title">Introduction</a>
+              <div class="sub-text"><p><a href="introduction">Welcome to the Virtual Research Environment on Canada’s cultural involvement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
             </li>
             <li class="primary-resources">
               <a href="/islandora/object/emic:cscw" class="title">Primary Resources</a>
               <div class="sub-text"><a href="/islandora/object/emic:cscw"><p>Bringing Canadian cultural materials about Spain to a wider audience. <span class="more">More ></span></a></p></div>
             </li>
             <li class="case-studies">
-              <a href="/node/7" class="title">Case Studies & Interviews</a>
-              <div class="sub-text"><p><a href="/node/7">Scholarship on our primary sources and other cultural engagement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
+              <a href="case-studies" class="title">Case Studies & Interviews</a>
+              <div class="sub-text"><p><a href="case-studies">Scholarship on our primary sources and other cultural engagement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
             </li>
             <li class="teaching-tools">
-              <a href="/node/9" class="title">Teaching Tools</a>
-              <div class="sub-text"><p><a href="/node/9">Resources for teaching Canadian materials about the Spanish Civil War at the secondary and post-secondary levels. <span class="more">More ></span></a></p></div>
+              <a href="teaching-modules" class="title">Teaching Tools</a>
+              <div class="sub-text"><p><a href="teaching-modules">Resources for teaching Canadian materials about the Spanish Civil War at the secondary and post-secondary levels. <span class="more">More ></span></a></p></div>
             </li>
             <li class="news small-box">
-              <a href="/node/14" class="title">News</a>
-              <div class="sub-text"><p><a href="/node/14">Announcing our series of print editions with the University of Ottawa Press. <span class="more">More ></span></a></p></div>
+              <a href="news" class="title">News</a>
+              <div class="sub-text"><p><a href="news">Announcing our series of print editions with the University of Ottawa Press. <span class="more">More ></span></a></p></div>
             </li>
             <li class="volunteers small-box">
               <a href="/volunteers" class="title">Volunteers</a>
