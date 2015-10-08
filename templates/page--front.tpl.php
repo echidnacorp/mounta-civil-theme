@@ -148,8 +148,8 @@
               <div class="sub-text"><p><a href="news">Announcing our series of print editions with the University of Ottawa Press. <span class="more">More ></span></a></p></div>
             </li>
             <li class="volunteers small-box">
-              <a href="/volunteers" class="title">Volunteers</a>
-              <div class="sub-text"><p><a href="/volunteers">Learn about the Canadians who volunteered with the International Brigades in Spain. <span class="more">More ></span></a></p></div>
+              <a href="node/20" class="title">Volunteers</a>
+              <div class="sub-text"><p><a href="node/20">Learn about the Canadians who volunteered with the International Brigades in Spain. <span class="more">More ></span></a></p></div>
             </li>
           </ul>
         </nav> 
