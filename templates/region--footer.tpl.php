@@ -35,9 +35,9 @@
       <div class="footer-logos">
       	<div class="logo-container">
   		  <div class="sponsor1"><a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx"><img typeof="foaf:Image" src="sites/spanishcivilwar.ca/themes/mounta-civil-theme/images/logos/sshrc_fip_wordmark_eng.gif" width="297" height="18" alt="" /></a></div> 
-  		  <div class="sponsor2"><a href="http://www.dal.ca/"><img typeof="foaf:Image" src="http://spanishcivilwar.dev/sites/spanishcivilwar.ca/files/01-DalLogoB%26Gld.jpg" width="84" height="28" alt="" /></a></div> 
-  		  <div class="sponsor3"><a href="http://www.cwrc.ca/en/"><img typeof="foaf:Image" src="http://spanishcivilwar.dev/sites/spanishcivilwar.ca/files/CWRC_logo_v075_nospill_noshading_thinnercontour.gif" width="44" height="25" alt="" /></a></div> 
-  		  <div class="sponsor4"><a href="http://editingmodernism.ca/"><img typeof="foaf:Image" src="http://spanishcivilwar.dev/sites/spanishcivilwar.ca/files/emic-2.gif" width="143" height="23" alt="" /></a></div>
+  		  <div class="sponsor2"><a href="http://www.dal.ca/"><img typeof="foaf:Image" src="sites/spanishcivilwar.ca/themes/mounta-civil-theme/images/logos/01-DalLogoB%26Gld.jpg" width="84" height="28" alt="" /></a></div> 
+  		  <div class="sponsor3"><a href="http://www.cwrc.ca/en/"><img typeof="foaf:Image" src="sites/spanishcivilwar.ca/themes/mounta-civil-theme/images/logos/CWRC_logo_v075_nospill_noshading_thinnercontour.gif" width="44" height="25" alt="" /></a></div> 
+  		  <div class="sponsor4"><a href="http://editingmodernism.ca/"><img typeof="foaf:Image" src="sites/spanishcivilwar.ca/themes/mounta-civil-theme/images/logos/emic-2.gif" width="143" height="23" alt="" /></a></div>
  	  	</div>
  	</div> 
   </div>
