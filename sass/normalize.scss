@@ -378,6 +378,25 @@ sub {
 }
 
 
+
+/* =============================================================================
+   Reusable classes
+   ========================================================================== */
+
+   .intro-text {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: .2px;
+   }
+
+   .red {
+    color: $colour1;
+   }
+
+
+
+
 /* =============================================================================
    Lists
    ========================================================================== */
@@ -443,6 +462,7 @@ nav ol {
 
 img {
   border: 0; /* 1 */
+  margin-bottom: .5em;
   -ms-interpolation-mode: bicubic; /* 2 */
 
   /* vertical-align: bottom; */ /* Suppress the space beneath the baseline */
