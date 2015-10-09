@@ -412,7 +412,7 @@ ul.pager {
       text-decoration: none; 
       color: $colour1;
       font-family: $font2;  
-      &:hover {color: #fff;}   
+      &:hover {color: #fff !important;}   
     }
   }
   li:hover {
@@ -427,6 +427,13 @@ ul.pager {
     color: #fff;
     border-radius: 3px;
   }
+
+  li.pager-next, li.pager-last {
+    &:hover {
+      color: darken($colour1, 10%);
+      background-color: #fff;
+    }
+  } 
 }
 
 .islandora-basic-image-object {
