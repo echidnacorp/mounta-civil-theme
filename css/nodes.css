@@ -145,3 +145,22 @@
   margin: 1.5em 0 1em;
   font-weight: 400;
 }
+
+/* ========================================================================== */
+/* line 133, ../sass/nodes.scss */
+.email-icon {
+  padding-left: 3.5em;
+  background-image: url("../images/email.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+/* line 141, ../sass/nodes.scss */
+.twitter-icon {
+  margin: 0;
+  padding: 1em 0 1em 3.5em;
+  background-image: url("../images/twitter.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
