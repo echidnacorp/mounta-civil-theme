@@ -457,19 +457,19 @@ ul.pager {
     display: inline-block;
     padding: .7em 1.5em;
     margin-bottom: 1em;
-    color: $colour1;
-    border: 1px solid $colour1;
-    box-sizing: border-box;
-    background-color: $colour3;
+    color: #fff;
+    background-color: $colour1;
     text-decoration: none;
     font-family: $font2;
     font-size: .8em;
     text-transform: uppercase;
 
-    a.active, a:hover {
-      background-color: $colour1;
-      color: #fff;
-      border: none;
+    a.active {
+      background-color: darken($colour1, 10%);
+    }
+
+    &:hover {
+      background-color: darken($colour1, 10%);
     }
   }
 }

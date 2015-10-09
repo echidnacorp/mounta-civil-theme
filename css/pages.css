@@ -524,20 +524,20 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   display: inline-block;
   padding: .7em 1.5em;
   margin-bottom: 1em;
-  color: #c32222;
-  border: 1px solid #c32222;
-  box-sizing: border-box;
-  background-color: #cccccc;
+  color: #fff;
+  background-color: #c32222;
   text-decoration: none;
   font-family: "Bitter", "Times New Roman", serif;
   font-size: .8em;
   text-transform: uppercase;
 }
-/* line 469, ../sass/pages.scss */
-.islandora-basic-collection-display-switch a a.active, .islandora-basic-collection-display-switch a a:hover {
-  background-color: #c32222;
-  color: #fff;
-  border: none;
+/* line 467, ../sass/pages.scss */
+.islandora-basic-collection-display-switch a a.active {
+  background-color: #981a1a;
+}
+/* line 471, ../sass/pages.scss */
+.islandora-basic-collection-display-switch a:hover {
+  background-color: #981a1a;
 }
 
 /* ========================================================================== */
