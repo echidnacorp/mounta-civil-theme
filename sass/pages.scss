@@ -404,28 +404,25 @@ span.field-label { /* The inline field label used by the Fences module */
 }
 
 ul.pager {
+  padding: .5em;
   border-top: 1px solid #E3E3E3;
   border-bottom: 1px solid #E3E3E3;  
   li {
     a {
-      text-decoration: none;      
+      text-decoration: none; 
+      color: $colour1;
+      font-family: $font2;     
     }
   }
   li:hover {
-    background-color: #E6232E;   
-      @include filter-gradient(#e6232e, #e6232e, horizontal);
-      $experimental-support-for-svg: true;
-      @include background-image(linear-gradient(left,  #e6232e 0%,#e62d33 20%,#e8504f 39%,#e8504f 60%,#e62d33 81%,#e6232e 100%));
+    background-color: $colour1;   
     border-radius: 3px;
     a {
       color: #fff;
     }
   }
   li.pager-current {
-    background-color: #E6232E;   
-      @include filter-gradient(#e6232e, #e6232e, horizontal);
-      $experimental-support-for-svg: true;
-      @include background-image(linear-gradient(left,  #e6232e 0%,#e62d33 20%,#e8504f 39%,#e8504f 60%,#e62d33 81%,#e6232e 100%));
+    background-color: $colour1;   
     color: #fff;
     border-radius: 3px;
   }
@@ -434,6 +431,7 @@ ul.pager {
 .islandora-basic-image-object {
   margin-top: 1em;
 }
+
 
 
 

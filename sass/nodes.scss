@@ -147,6 +147,26 @@
 }
 
 
+/* ========================================================================== */
+
+// Primary Sources
+
+.islandora-basic-collection-wrapper {
+
+  //pager 
+  ul.pager {
+    padding: .5em;
+
+    li {
+
+      a {
+        color: $colour1;
+        font-family: $font2;
+      }
+    }
+  }
+}
+
 
 
 

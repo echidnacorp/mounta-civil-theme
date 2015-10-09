@@ -469,24 +469,19 @@ span.field-label {
 
 /* line 406, ../sass/pages.scss */
 ul.pager {
+  padding: .5em;
   border-top: 1px solid #E3E3E3;
   border-bottom: 1px solid #E3E3E3;
 }
-/* line 410, ../sass/pages.scss */
+/* line 411, ../sass/pages.scss */
 ul.pager li a {
   text-decoration: none;
+  color: #c32222;
+  font-family: "Bitter", "Times New Roman", serif;
 }
-/* line 414, ../sass/pages.scss */
+/* line 417, ../sass/pages.scss */
 ul.pager li:hover {
-  background-color: #E6232E;
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFE6232E', endColorstr='#FFE6232E');
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U2MjMyZSIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjZTYyZDMzIi8+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiNlODUwNGYiLz48c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI2U4NTA0ZiIvPjxzdG9wIG9mZnNldD0iODElIiBzdG9wLWNvbG9yPSIjZTYyZDMzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTYyMzJlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e6232e), color-stop(20%, #e62d33), color-stop(39%, #e8504f), color-stop(60%, #e8504f), color-stop(81%, #e62d33), color-stop(100%, #e6232e));
-  background-image: -moz-linear-gradient(left, #e6232e 0%, #e62d33 20%, #e8504f 39%, #e8504f 60%, #e62d33 81%, #e6232e 100%);
-  background-image: -webkit-linear-gradient(left, #e6232e 0%, #e62d33 20%, #e8504f 39%, #e8504f 60%, #e62d33 81%, #e6232e 100%);
-  background-image: linear-gradient(to right, #e6232e 0%, #e62d33 20%, #e8504f 39%, #e8504f 60%, #e62d33 81%, #e6232e 100%);
+  background-color: #c32222;
   border-radius: 3px;
 }
 /* line 420, ../sass/pages.scss */
@@ -495,26 +490,18 @@ ul.pager li:hover a {
 }
 /* line 424, ../sass/pages.scss */
 ul.pager li.pager-current {
-  background-color: #E6232E;
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFE6232E', endColorstr='#FFE6232E');
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U2MjMyZSIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjZTYyZDMzIi8+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiNlODUwNGYiLz48c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI2U4NTA0ZiIvPjxzdG9wIG9mZnNldD0iODElIiBzdG9wLWNvbG9yPSIjZTYyZDMzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTYyMzJlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e6232e), color-stop(20%, #e62d33), color-stop(39%, #e8504f), color-stop(60%, #e8504f), color-stop(81%, #e62d33), color-stop(100%, #e6232e));
-  background-image: -moz-linear-gradient(left, #e6232e 0%, #e62d33 20%, #e8504f 39%, #e8504f 60%, #e62d33 81%, #e6232e 100%);
-  background-image: -webkit-linear-gradient(left, #e6232e 0%, #e62d33 20%, #e8504f 39%, #e8504f 60%, #e62d33 81%, #e6232e 100%);
-  background-image: linear-gradient(to right, #e6232e 0%, #e62d33 20%, #e8504f 39%, #e8504f 60%, #e62d33 81%, #e6232e 100%);
+  background-color: #c32222;
   color: #fff;
   border-radius: 3px;
 }
 
-/* line 434, ../sass/pages.scss */
+/* line 431, ../sass/pages.scss */
 .islandora-basic-image-object {
   margin-top: 1em;
 }
 
 /* ========================================================================== */
-/* line 444, ../sass/pages.scss */
+/* line 442, ../sass/pages.scss */
 .footer-break {
   height: 15px;
   width: 100%;
@@ -522,7 +509,7 @@ ul.pager li.pager-current {
   background: url("../images/foot-bar-left.png") left #c32222 no-repeat;
 }
 
-/* line 451, ../sass/pages.scss */
+/* line 449, ../sass/pages.scss */
 #footer {
   clear: both;
   float: left;
@@ -531,72 +518,72 @@ ul.pager li.pager-current {
   margin-bottom: 2em;
 }
 
-/* line 461, ../sass/pages.scss */
+/* line 459, ../sass/pages.scss */
 .footer-logos {
   clear: both;
   float: right;
   width: 100%;
   margin-top: 1em;
 }
-/* line 467, ../sass/pages.scss */
+/* line 465, ../sass/pages.scss */
 .footer-logos .logo-container {
   width: 700px;
   margin: 0 auto;
 }
-/* line 473, ../sass/pages.scss */
+/* line 471, ../sass/pages.scss */
 .footer-logos .logo-container div {
   width: auto;
   float: left;
 }
-/* line 478, ../sass/pages.scss */
+/* line 476, ../sass/pages.scss */
 .footer-logos img {
   margin-left: 2.8em;
 }
-/* line 482, ../sass/pages.scss */
+/* line 480, ../sass/pages.scss */
 .footer-logos .sponsor1 img {
   margin-left: 0;
 }
 
 @media (max-width: 710px) {
-  /* line 489, ../sass/pages.scss */
+  /* line 487, ../sass/pages.scss */
   .footer-logos .logo-container {
     width: 610px;
   }
-  /* line 493, ../sass/pages.scss */
+  /* line 491, ../sass/pages.scss */
   .footer-logos img {
     margin-bottom: 2em;
     margin-left: 1em;
   }
 }
 @media (max-width: 625px) {
-  /* line 501, ../sass/pages.scss */
+  /* line 499, ../sass/pages.scss */
   .logo-container {
     width: 83% !important;
   }
 }
 @media (max-width: 400px) {
-  /* line 507, ../sass/pages.scss */
+  /* line 505, ../sass/pages.scss */
   .logo-container {
     width: 100% !important;
   }
-  /* line 510, ../sass/pages.scss */
+  /* line 508, ../sass/pages.scss */
   .logo-container div {
     width: 100% !important;
     margin-bottom: 3em;
   }
-  /* line 515, ../sass/pages.scss */
+  /* line 513, ../sass/pages.scss */
   .logo-container img {
     display: block;
     float: none;
     margin: 0 auto;
   }
-  /* line 521, ../sass/pages.scss */
+  /* line 519, ../sass/pages.scss */
   .logo-container .sponsor1 img {
     margin-left: auto;
   }
 }
 /* ========================================================================== */
-/* line 532, ../sass/pages.scss */
+/* line 530, ../sass/pages.scss */
 #first-time {
   display: none;
 }
