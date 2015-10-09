@@ -58,7 +58,7 @@ ul li.leaf {
   width: 16%;
 }
 /* line 67, ../sass/navigation.scss */
-.not-front #navigation nav#main-menu ul.links li.menu-664 {
+.not-front #navigation nav#main-menu ul.links li.menu-664, .not-front #navigation nav#main-menu ul.links li.menu-388 {
   width: 18%;
 }
 /* line 72, ../sass/navigation.scss */
@@ -74,7 +74,7 @@ ul li.leaf {
   width: 9%;
 }
 /* line 87, ../sass/navigation.scss */
-.not-front #navigation nav#main-menu ul.links li.menu-663, .not-front #navigation nav#main-menu ul.links li.menu-667 {
+.not-front #navigation nav#main-menu ul.links li.menu-663, .not-front #navigation nav#main-menu ul.links li.menu-667, .not-front #navigation nav#main-menu ul.links li.menu-655 {
   width: 13%;
 }
 /* line 92, ../sass/navigation.scss */

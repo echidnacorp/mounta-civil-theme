@@ -172,3 +172,27 @@
   margin-bottom: .3em;
   line-height: 1em;
 }
+
+/* ========================================================================== */
+/* line 168, ../sass/nodes.scss */
+h2.node__title, h2.node__title a {
+  text-decoration: none;
+  color: #c32222;
+}
+
+/* line 173, ../sass/nodes.scss */
+p.submitted {
+  padding-left: 1.5em;
+  line-height: 18px !important;
+  background-image: url("../images/member.png");
+  background-repeat: no-repeat;
+  font-weight: 600;
+}
+
+/* line 183, ../sass/nodes.scss */
+.field-name-field-tags.field-type-taxonomy-term-reference .field-label {
+  font-family: "Bitter", "Times New Roman", serif;
+  border-top: 1px solid #eee;
+  padding-top: 1em;
+  margin-bottom: .5em;
+}
