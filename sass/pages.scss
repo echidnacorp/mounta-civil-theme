@@ -448,19 +448,28 @@ ul.pager {
 //View Switch
 
 .islandora-basic-collection-display-switch {
+  ul li {
+    padding: 0;
+    margin-left: .5em;
+  }
+
   a{
     display: inline-block;
     padding: .7em 1.5em;
     margin-bottom: 1em;
-    background-color: $colour1;
-    color: #fff;
+    color: $colour1;
+    border: 1px solid $colour1;
+    box-sizing: border-box;
+    background-color: $colour3;
     text-decoration: none;
     font-family: $font2;
     font-size: .8em;
     text-transform: uppercase;
 
-    &:hover {
-      background-color: darken($colour1, 10%);
+    a.active, a:hover {
+      background-color: $colour1;
+      color: #fff;
+      border: none;
     }
   }
 }
