@@ -268,12 +268,12 @@ ul li.leaf {
   background-position: -21px -12px;
 }
 /* line 291, ../sass/navigation.scss */
-.front #navigation.front-image-blocks li.primary-resources {
+.front #navigation.front-image-blocks li.primary-sources {
   background: url("../images/primary_resources.jpg") no-repeat;
   background-position: -95px -148px;
 }
 /* line 295, ../sass/navigation.scss */
-.front #navigation.front-image-blocks li.primary-resources:hover {
+.front #navigation.front-image-blocks li.primary-sources:hover {
   background: url("../images/primary_resources-hover.jpg") no-repeat;
   background-position: -95px -148px;
 }
@@ -322,7 +322,7 @@ ul li.leaf {
     width: 45%;
   }
   /* line 352, ../sass/navigation.scss */
-  .front #navigation.front-image-blocks ul.menu li.primary-resources, .front #navigation.front-image-blocks ul.menu li.teaching-tools {
+  .front #navigation.front-image-blocks ul.menu li.primary-sources, .front #navigation.front-image-blocks ul.menu li.teaching-tools {
     margin-right: 0;
   }
   /* line 357, ../sass/navigation.scss */
@@ -331,7 +331,7 @@ ul li.leaf {
     background-position: -8px 1px;
   }
   /* line 358, ../sass/navigation.scss */
-  .front #navigation.front-image-blocks ul.menu li.primary-resources {
+  .front #navigation.front-image-blocks ul.menu li.primary-sources {
     background: url("../images/primary_resources-hover.jpg");
     background-position: 0 -179px;
   }

@@ -288,7 +288,7 @@ ul li.leaf {
   }
 
   //Primary Resources
-  li.primary-resources {
+  li.primary-sources {
     background: url('../images/primary_resources.jpg') no-repeat;
     background-position: -95px -148px;
 
@@ -349,13 +349,13 @@ ul li.leaf {
       li {
         width: 45%;
 
-        &.primary-resources, &.teaching-tools {
+        &.primary-sources, &.teaching-tools {
           margin-right: 0;
         }
 
         //changes to red 
         &.introduction {background: url('../images/introduction-hover2.jpg'); background-position: -8px 1px;}
-        &.primary-resources {background: url('../images/primary_resources-hover.jpg'); background-position: 0 -179px;}
+        &.primary-sources {background: url('../images/primary_resources-hover.jpg'); background-position: 0 -179px;}
         &.case-studies {background: url('../images/case_studies_interviews-hover.jpg');}
         &.teaching-tools {background: url('../images/teaching-tools-hover1.jpg');}
         &.news {background: url('../images/news-hover1.jpg');}

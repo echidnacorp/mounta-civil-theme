@@ -119,3 +119,29 @@
   border-bottom: 1px solid #eee;
   padding: 1.4em 0;
 }
+
+/* ========================================================================== */
+/* line 106, ../sass/nodes.scss */
+.timeline {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  width: 100%;
+  margin-bottom: -.8em;
+}
+/* line 112, ../sass/nodes.scss */
+.timeline strong {
+  background: #fff;
+  font-family: "Bitter", "Times New Roman", serif;
+  top: 10px;
+  position: relative;
+  padding-right: 1em;
+  color: #c32222;
+  font-size: 1.2em;
+}
+
+/* line 123, ../sass/nodes.scss */
+.war-title {
+  font-size: 2em;
+  margin: 1.5em 0 1em;
+  font-weight: 400;
+}
