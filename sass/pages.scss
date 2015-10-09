@@ -487,6 +487,7 @@ ul.pager {
 
   .islandora-basic-collection-caption {
     text-align: center;
+    margin-top: .5em;
   }
 
   .islandora-basic-collection-caption a {
@@ -501,6 +502,13 @@ ul.pager {
 }
 
 
+.islandora-basic-collection-grid {
+
+  dl {
+    width: 20.7%;
+    margin: 1.5em 2%;
+  }
+}
 
 
 

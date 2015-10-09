@@ -549,20 +549,27 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
 /* line 488, ../sass/pages.scss */
 .islandora-basic-collection .islandora-basic-collection-caption {
   text-align: center;
+  margin-top: .5em;
 }
-/* line 492, ../sass/pages.scss */
+/* line 493, ../sass/pages.scss */
 .islandora-basic-collection .islandora-basic-collection-caption a {
   color: #c32222;
   font-family: "Bitter", "Times New Roman", serif;
   text-decoration: none;
 }
-/* line 497, ../sass/pages.scss */
+/* line 498, ../sass/pages.scss */
 .islandora-basic-collection .islandora-basic-collection-caption a:hover {
   color: #981a1a;
 }
 
+/* line 507, ../sass/pages.scss */
+.islandora-basic-collection-grid dl {
+  width: 20.7%;
+  margin: 1.5em 2%;
+}
+
 /* ========================================================================== */
-/* line 512, ../sass/pages.scss */
+/* line 520, ../sass/pages.scss */
 .footer-break {
   height: 15px;
   width: 100%;
@@ -570,7 +577,7 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   background: url("../images/foot-bar-left.png") left #c32222 no-repeat;
 }
 
-/* line 519, ../sass/pages.scss */
+/* line 527, ../sass/pages.scss */
 #footer {
   clear: both;
   float: left;
@@ -579,72 +586,72 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   margin-bottom: 2em;
 }
 
-/* line 529, ../sass/pages.scss */
+/* line 537, ../sass/pages.scss */
 .footer-logos {
   clear: both;
   float: right;
   width: 100%;
   margin-top: 1em;
 }
-/* line 535, ../sass/pages.scss */
+/* line 543, ../sass/pages.scss */
 .footer-logos .logo-container {
   width: 700px;
   margin: 0 auto;
 }
-/* line 541, ../sass/pages.scss */
+/* line 549, ../sass/pages.scss */
 .footer-logos .logo-container div {
   width: auto;
   float: left;
 }
-/* line 546, ../sass/pages.scss */
+/* line 554, ../sass/pages.scss */
 .footer-logos img {
   margin-left: 2.8em;
 }
-/* line 550, ../sass/pages.scss */
+/* line 558, ../sass/pages.scss */
 .footer-logos .sponsor1 img {
   margin-left: 0;
 }
 
 @media (max-width: 710px) {
-  /* line 557, ../sass/pages.scss */
+  /* line 565, ../sass/pages.scss */
   .footer-logos .logo-container {
     width: 610px;
   }
-  /* line 561, ../sass/pages.scss */
+  /* line 569, ../sass/pages.scss */
   .footer-logos img {
     margin-bottom: 2em;
     margin-left: 1em;
   }
 }
 @media (max-width: 625px) {
-  /* line 569, ../sass/pages.scss */
+  /* line 577, ../sass/pages.scss */
   .logo-container {
     width: 83% !important;
   }
 }
 @media (max-width: 400px) {
-  /* line 575, ../sass/pages.scss */
+  /* line 583, ../sass/pages.scss */
   .logo-container {
     width: 100% !important;
   }
-  /* line 578, ../sass/pages.scss */
+  /* line 586, ../sass/pages.scss */
   .logo-container div {
     width: 100% !important;
     margin-bottom: 3em;
   }
-  /* line 583, ../sass/pages.scss */
+  /* line 591, ../sass/pages.scss */
   .logo-container img {
     display: block;
     float: none;
     margin: 0 auto;
   }
-  /* line 589, ../sass/pages.scss */
+  /* line 597, ../sass/pages.scss */
   .logo-container .sponsor1 img {
     margin-left: auto;
   }
 }
 /* ========================================================================== */
-/* line 600, ../sass/pages.scss */
+/* line 608, ../sass/pages.scss */
 #first-time {
   display: none;
 }
