@@ -62,3 +62,54 @@
     @include unpublished-div;
   }
 }
+
+
+
+
+
+/* ========================================================================== */
+
+// Case Studies Page
+
+.case-studies-page {
+  .case-studies p {
+    margin: 0;
+
+    a{
+      color: $colour1;
+      text-decoration: none;
+      font-family: $font2;
+      font-size: 1.2em;
+    }
+  }
+
+  .author {
+    margin-top: .5em;
+    padding-left: 1.5em;
+    line-height: 18px;
+    background-image: url('../images/member.png');
+    background-repeat: no-repeat;
+    font-weight: 600;
+  }
+}
+
+.case-studies {
+  border-bottom: 1px solid #eee;
+  padding: 1.4em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
