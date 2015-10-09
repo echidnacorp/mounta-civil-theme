@@ -169,5 +169,6 @@
 /* line 155, ../sass/nodes.scss */
 .page-islandora-object #content h2 {
   font-family: "Bitter", "Times New Roman", serif;
-  margin-bottom: .5em;
+  margin-bottom: .3em;
+  line-height: 1em;
 }
