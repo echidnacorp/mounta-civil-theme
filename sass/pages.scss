@@ -396,7 +396,7 @@ span.field-label { /* The inline field label used by the Fences module */
 
 /* ========================================================================== */
 
-//Search Results
+//Islandora Search Results
 
 #islandora-solr-top {
   display: inline-block;
@@ -442,10 +442,9 @@ ul.pager {
 }
 
 
-
 /* ========================================================================== */
 
-//View Switch
+//Islandora View Switch
 
 .islandora-basic-collection-display-switch {
   ul li {
@@ -475,7 +474,31 @@ ul.pager {
 }
 
 
+/* ========================================================================== */
 
+//Islandora collections
+
+.islandora-basic-collection {
+
+  dt img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .islandora-basic-collection-caption {
+    text-align: center;
+  }
+
+  .islandora-basic-collection-caption a {
+    color: $colour1;
+    font-family: $font2;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($colour1, 10%);
+    }
+  }
+}
 
 
 
