@@ -428,7 +428,7 @@ ul.pager {
     border-radius: 3px;
   }
 
-  li.pager-next, li.pager-last {
+  li.pager-next, li.pager-last, li.pager-previous, li.pager-first {
     &:hover {
       color: darken($colour1, 10%);
       background-color: #fff;
@@ -440,6 +440,35 @@ ul.pager {
 .islandora-basic-image-object {
   margin-top: 1em;
 }
+
+
+
+/* ========================================================================== */
+
+//View Switch
+
+.islandora-basic-collection-display-switch {
+  a{
+    display: inline-block;
+    padding: .7em 1.5em;
+    margin-bottom: 1em;
+    background-color: $colour1;
+    color: #fff;
+    text-decoration: none;
+    font-family: $font2;
+    font-size: .8em;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: darken($colour1, 10%);
+    }
+  }
+}
+
+
+
+
+
 
 
 
