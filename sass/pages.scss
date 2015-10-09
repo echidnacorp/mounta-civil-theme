@@ -432,6 +432,7 @@ ul.pager {
     &:hover {
       color: darken($colour1, 10%);
       background-color: #fff;
+      a{color: darken($colour1, 10%) !important;}
     }
   } 
 }
