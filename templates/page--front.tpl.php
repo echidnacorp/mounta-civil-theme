@@ -132,7 +132,7 @@
               <div class="sub-text"><p><a href="introduction">Welcome to the Virtual Research Environment on Canada’s cultural involvement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
             </li>
             <li class="primary-sources">
-              <a href="/islandora/object/emic:cscw" class="title">Primary Resources</a>
+              <a href="/islandora/object/emic:cscw" class="title">Primary Sources</a>
               <div class="sub-text"><a href="/islandora/object/emic:cscw"><p>Bringing Canadian cultural materials about Spain to a wider audience. <span class="more">More ></span></a></p></div>
             </li>
             <li class="case-studies">
