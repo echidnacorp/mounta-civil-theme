@@ -490,7 +490,7 @@ ul.pager li:hover {
 }
 /* line 421, ../sass/pages.scss */
 ul.pager li:hover a {
-  color: #fff;
+  color: #fff !important;
 }
 /* line 425, ../sass/pages.scss */
 ul.pager li.pager-current {
