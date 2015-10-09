@@ -532,7 +532,7 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   text-transform: uppercase;
 }
 /* line 467, ../sass/pages.scss */
-.islandora-basic-collection-display-switch a a.active {
+.islandora-basic-collection-display-switch a.active {
   background-color: #981a1a;
 }
 /* line 471, ../sass/pages.scss */

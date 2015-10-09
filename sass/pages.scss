@@ -464,7 +464,7 @@ ul.pager {
     font-size: .8em;
     text-transform: uppercase;
 
-    a.active {
+    &.active {
       background-color: darken($colour1, 10%);
     }
 
