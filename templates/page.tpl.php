@@ -98,7 +98,7 @@
           <switch>
             <foreignObject>
                 <p>Fallback image</p>
-                <img src="../images/intro-bck.png" >
+                <img src="/sites/spanishcivilwar.ca/themes/mounta-civil-theme/images/intro-bck.png" >
             </foreignObject>
           </switch>
         </svg>

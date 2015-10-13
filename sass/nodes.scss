@@ -170,6 +170,10 @@
     color: $colour1;
   }
 
+  h2.node__title a:hover {
+    color: darken($colour1, 15%);
+  } 
+
 p.submitted {
     padding-left: 1.5em;
     line-height: 18px !important;

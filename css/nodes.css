@@ -181,6 +181,11 @@ h2.node__title, h2.node__title a {
 }
 
 /* line 173, ../sass/nodes.scss */
+h2.node__title a:hover {
+  color: #821717;
+}
+
+/* line 177, ../sass/nodes.scss */
 p.submitted {
   padding-left: 1.5em;
   line-height: 18px !important;
@@ -189,7 +194,7 @@ p.submitted {
   font-weight: 600;
 }
 
-/* line 183, ../sass/nodes.scss */
+/* line 187, ../sass/nodes.scss */
 .field-name-field-tags.field-type-taxonomy-term-reference .field-label {
   font-family: "Bitter", "Times New Roman", serif;
   border-top: 1px solid #eee;

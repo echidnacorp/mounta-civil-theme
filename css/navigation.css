@@ -67,7 +67,7 @@ ul li.leaf {
 }
 /* line 77, ../sass/navigation.scss */
 .not-front #navigation nav#main-menu ul.links li.menu-377 {
-  width: 18%;
+  width: 19%;
 }
 /* line 82, ../sass/navigation.scss */
 .not-front #navigation nav#main-menu ul.links li.menu-406 {
@@ -540,14 +540,33 @@ ul li.leaf {
   box-sizing: border-box;
 }
 
-/* line 546, ../sass/navigation.scss */
-.test-nav-container {
+/* line 545, ../sass/navigation.scss */
+select#tinynav1 {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: "Bitter", "Times New Roman", serif;
+  border: 1px solid #ccc;
+  color: #c32222;
+  font-weight: 700;
+  height: 2.6em;
+  padding: .5em 0;
+}
+
+/* styles for desktop */
+/* line 558, ../sass/navigation.scss */
+.tinynav {
   display: none;
 }
 
-@media (max-width: 600px) {
-  /* line 551, ../sass/navigation.scss */
-  .test-nav-container {
+/* styles for mobile */
+@media screen and (max-width: 690px) {
+  /* line 562, ../sass/navigation.scss */
+  .tinynav {
     display: block;
+  }
+
+  /* line 563, ../sass/navigation.scss */
+  .menu-name-main-menu .menu {
+    display: none;
   }
 }

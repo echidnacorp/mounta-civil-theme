@@ -75,6 +75,8 @@ stylesheets[all][] = css/flexnav/flexnav.css
 ; Optionally add some JavaScripts to your theme.
 scripts[] = js/AppendAround/appendAround.js
 
+scripts[] = js/tinynav.min.js
+
 scripts[] = js/flexnav/jquery.flexnav.min.js
 
 scripts[] = js/script.js

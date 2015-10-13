@@ -75,7 +75,7 @@ ul li.leaf {
 
       //teaching modules
       &.menu-377 {
-        width: 18%;
+        width: 19%;
       }
 
       //news
@@ -540,22 +540,46 @@ ul li.leaf {
   }
 }
 
+//Mobile select menu
 
-
-
-.test-nav-container {
-  display: none;
+select#tinynav1 {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: $font2;
+  border: 1px solid #ccc;
+  color: $colour1;
+  font-weight: 700;
+  height: 2.6em;
+  padding: .5em 0;
 }
 
-@media (max-width: 600px) {
-  .test-nav-container {
-    display: block;
-  }
 
-  #navigation{
-    //display: none;
-  }
+/* styles for desktop */
+.tinynav { display: none }
+
+/* styles for mobile */
+@media screen and (max-width: 690px) {
+    .tinynav { display: block }
+    .menu-name-main-menu .menu{ display: none }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

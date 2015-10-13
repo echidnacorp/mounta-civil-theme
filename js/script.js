@@ -10,6 +10,8 @@
 // wrapping it with an "anonymous closure". See:
 // - http://drupal.org/node/1446420
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
+
+
 (function ($, Drupal, window, document, undefined) {
 
 
@@ -17,9 +19,14 @@
 		$(".flexnav").flexNav();
 	});
 
-	$( "#navigation" ).appendAround();
+
+  $(function () {
+    $(".menu-name-main-menu .menu").tinyNav({
+    	active:'selected',
+    	header: 'Choose a Section' // String: Specify text for "header" and show header instead of the active item
+    });
+  });
+
 
 
 })(jQuery, Drupal, this, this.document);
-
-
