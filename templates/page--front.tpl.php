@@ -97,7 +97,6 @@
         <polygon points="350.076,55 1,55 27.929,1 379,1 "/>
           <switch>
             <foreignObject>
-                <p>Fallback image</p>
                 <img src="/sites/spanishcivilwar.ca/themes/mounta-civil-theme/images/intro-bck.png" >
             </foreignObject>
           </switch>

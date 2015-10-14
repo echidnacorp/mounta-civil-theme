@@ -249,77 +249,126 @@ h1#page-title {
   }
 }
 @media (max-width: 530px) {
-  /* line 239, ../sass/pages.scss */
+  /* line 240, ../sass/pages.scss */
   .header__region #logo img {
     height: auto;
     width: 100%;
   }
 }
 @media (max-width: 530px) {
-  /* line 246, ../sass/pages.scss */
+  /* line 248, ../sass/pages.scss */
   #header hgroup {
     margin: 1.8em 4% 0em 4%;
   }
 }
 @media (max-width: 450px) {
-  /* line 250, ../sass/pages.scss */
+  /* line 253, ../sass/pages.scss */
   #header hgroup {
     margin: 0.8em 4% 0em 4%;
   }
 
-  /* line 251, ../sass/pages.scss */
+  /* line 254, ../sass/pages.scss */
   #site-name {
     width: 97%;
   }
 }
 @media (max-width: 405px) {
-  /* line 255, ../sass/pages.scss */
-  #header hgroup {
-    margin: 1.5em 4% 0em 4%;
-  }
-
-  /* line 256, ../sass/pages.scss */
-  #site-name {
-    width: 90%;
-    font-size: .7rem;
-    top: 55px;
-  }
-
-  /* line 257, ../sass/pages.scss */
+  /* line 260, ../sass/pages.scss */
   #site-slogan {
     font-size: .7em;
     top: -54px;
   }
-}
-@media (max-width: 345px) {
-  /* line 261, ../sass/pages.scss */
-  #header hgroup {
-    margin: .8em 4% 0em 4%;
-  }
 
   /* line 262, ../sass/pages.scss */
+  .site-slogan-container svg {
+    height: 55px;
+  }
+
+  /* line 264, ../sass/pages.scss */
+  #header hgroup {
+    margin: 0 4%;
+    position: relative;
+    -webkit-text-size-adjust: none;
+    top: 6px;
+    top: 20px;
+  }
+
+  /* line 266, ../sass/pages.scss */
+  #site-name {
+    -webkit-text-size-adjust: none;
+    position: absolute;
+    font-size: 8px;
+    margin: 1em 10% 0 10%;
+    top: 55px;
+    width: 80%;
+  }
+
+  /* line 275, ../sass/pages.scss */
+  #site-slogan {
+    top: -39px;
+    font-size: 8.5px;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+  }
+
+  /* line 282, ../sass/pages.scss */
+  .site-slogan-container {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+  }
+
+  /* line 289, ../sass/pages.scss */
+  .site-slogan-container svg {
+    position: relative;
+    float: left;
+    padding: 0em;
+    -webkit-text-size-adjust: none;
+  }
+}
+@media (max-width: 375px) {
+  /* line 300, ../sass/pages.scss */
+  #site-name {
+    width: 86%;
+    margin: .2em 7% 0 7%;
+  }
+}
+@media (max-width: 341px) and (min-width: 325px) {
+  /* line 306, ../sass/pages.scss */
+  #site-name {
+    width: 96% !important;
+    margin: .2em 2% 0 2%;
+  }
+}
+@media (max-width: 340px) {
+  /* line 313, ../sass/pages.scss */
+  #header hgroup {
+    top: 6px;
+  }
+
+  /* line 315, ../sass/pages.scss */
   #site-name {
     width: 100%;
-    font-size: .7rem;
-    top: 55px;
+    margin: .2em 0 0 0;
   }
 }
 /* ========================================================================== */
-/* line 272, ../sass/pages.scss */
+/* line 327, ../sass/pages.scss */
 #main {
   margin-top: 0em;
 }
 
-/* line 276, ../sass/pages.scss */
+/* line 331, ../sass/pages.scss */
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-/* line 277, ../sass/pages.scss */
+/* line 332, ../sass/pages.scss */
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-/* line 281, ../sass/pages.scss */
+/* line 336, ../sass/pages.scss */
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -327,7 +376,7 @@ h1#page-title {
   padding: 0;
 }
 
-/* line 289, ../sass/pages.scss */
+/* line 344, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -338,37 +387,37 @@ h3.title {
   margin: 0;
 }
 
-/* line 302, ../sass/pages.scss */
+/* line 357, ../sass/pages.scss */
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 306, ../sass/pages.scss */
+/* line 361, ../sass/pages.scss */
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 310, ../sass/pages.scss */
+/* line 365, ../sass/pages.scss */
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-/* line 313, ../sass/pages.scss */
+/* line 368, ../sass/pages.scss */
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 319, ../sass/pages.scss */
+/* line 374, ../sass/pages.scss */
 div.status {
   /* Normal priority messages */
 }
 
-/* line 322, ../sass/pages.scss */
+/* line 377, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -376,82 +425,82 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 327, ../sass/pages.scss */
+/* line 382, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-/* line 331, ../sass/pages.scss */
+/* line 386, ../sass/pages.scss */
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-/* line 335, ../sass/pages.scss */
+/* line 390, ../sass/pages.scss */
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-/* line 339, ../sass/pages.scss */
+/* line 394, ../sass/pages.scss */
 .tabs {
   /* See also the tabs.css file. */
 }
 
-/* line 342, ../sass/pages.scss */
+/* line 397, ../sass/pages.scss */
 .region-help {
   /* Help text on a page */
 }
 
-/* line 345, ../sass/pages.scss */
+/* line 400, ../sass/pages.scss */
 .more-help-link {
   /* Link to more help */
 }
 
-/* line 348, ../sass/pages.scss */
+/* line 403, ../sass/pages.scss */
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-/* line 351, ../sass/pages.scss */
+/* line 406, ../sass/pages.scss */
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-/* line 355, ../sass/pages.scss */
+/* line 410, ../sass/pages.scss */
 ul.inline li {
   display: inline;
   list-style-type: none;
   padding: 0 1em 0 0;
 }
 
-/* line 361, ../sass/pages.scss */
+/* line 416, ../sass/pages.scss */
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
 }
 
-/* line 365, ../sass/pages.scss */
+/* line 420, ../sass/pages.scss */
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-/* line 368, ../sass/pages.scss */
+/* line 423, ../sass/pages.scss */
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-/* line 373, ../sass/pages.scss */
+/* line 428, ../sass/pages.scss */
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-/* line 376, ../sass/pages.scss */
+/* line 431, ../sass/pages.scss */
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -473,65 +522,65 @@ span.field-label {
  * Islandora Overrides
  */
 /* ========================================================================== */
-/* line 414, ../sass/pages.scss */
+/* line 469, ../sass/pages.scss */
 #islandora-solr-top {
   display: inline-block;
   margin-left: 1em;
 }
 
-/* line 419, ../sass/pages.scss */
+/* line 474, ../sass/pages.scss */
 ul.pager {
   padding: .5em !important;
   border-top: 1px solid #E3E3E3;
   border-bottom: 1px solid #E3E3E3;
 }
-/* line 424, ../sass/pages.scss */
+/* line 479, ../sass/pages.scss */
 ul.pager li a {
   text-decoration: none;
   color: #c32222;
   font-family: "Bitter", "Times New Roman", serif;
 }
-/* line 428, ../sass/pages.scss */
+/* line 483, ../sass/pages.scss */
 ul.pager li a:hover {
   color: #fff !important;
 }
-/* line 431, ../sass/pages.scss */
+/* line 486, ../sass/pages.scss */
 ul.pager li:hover {
   background-color: #c32222;
   border-radius: 3px;
 }
-/* line 434, ../sass/pages.scss */
+/* line 489, ../sass/pages.scss */
 ul.pager li:hover a {
   color: #fff !important;
 }
-/* line 438, ../sass/pages.scss */
+/* line 493, ../sass/pages.scss */
 ul.pager li.pager-current {
   background-color: #c32222;
   color: #fff;
   border-radius: 3px;
 }
-/* line 445, ../sass/pages.scss */
+/* line 500, ../sass/pages.scss */
 ul.pager li.pager-next:hover, ul.pager li.pager-last:hover, ul.pager li.pager-previous:hover, ul.pager li.pager-first:hover {
   color: #981a1a;
   background-color: #fff;
 }
-/* line 448, ../sass/pages.scss */
+/* line 503, ../sass/pages.scss */
 ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.pager-previous:hover a, ul.pager li.pager-first:hover a {
   color: #981a1a !important;
 }
 
-/* line 453, ../sass/pages.scss */
+/* line 508, ../sass/pages.scss */
 .islandora-basic-image-object {
   margin-top: 1em;
 }
 
 /* ========================================================================== */
-/* line 463, ../sass/pages.scss */
+/* line 518, ../sass/pages.scss */
 .islandora-basic-collection-display-switch ul li {
   padding: 0;
   margin-left: .5em;
 }
-/* line 468, ../sass/pages.scss */
+/* line 523, ../sass/pages.scss */
 .islandora-basic-collection-display-switch a {
   display: inline-block;
   padding: .7em 1.5em;
@@ -543,59 +592,59 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   font-size: .8em;
   text-transform: uppercase;
 }
-/* line 479, ../sass/pages.scss */
+/* line 534, ../sass/pages.scss */
 .islandora-basic-collection-display-switch a.active {
   background-color: #981a1a;
 }
-/* line 483, ../sass/pages.scss */
+/* line 538, ../sass/pages.scss */
 .islandora-basic-collection-display-switch a:hover {
   background-color: #981a1a;
 }
 
 /* ========================================================================== */
-/* line 496, ../sass/pages.scss */
+/* line 551, ../sass/pages.scss */
 .islandora-basic-collection dt img {
   display: block;
   margin: 0 auto;
 }
-/* line 501, ../sass/pages.scss */
+/* line 556, ../sass/pages.scss */
 .islandora-basic-collection .islandora-basic-collection-caption {
   text-align: center;
   margin-top: .5em;
 }
-/* line 506, ../sass/pages.scss */
+/* line 561, ../sass/pages.scss */
 .islandora-basic-collection .collection-value.dc-title a,
 .islandora-basic-collection .islandora-basic-collection-caption a {
   color: #c32222;
   font-family: "Bitter", "Times New Roman", serif;
   text-decoration: none;
 }
-/* line 512, ../sass/pages.scss */
+/* line 567, ../sass/pages.scss */
 .islandora-basic-collection .collection-value.dc-title a:hover,
 .islandora-basic-collection .islandora-basic-collection-caption a:hover {
   color: #981a1a;
 }
 
-/* line 521, ../sass/pages.scss */
+/* line 576, ../sass/pages.scss */
 .islandora-basic-collection-grid dl {
   width: 20.5%;
   margin: 1.5em 2%;
 }
 @media (max-width: 560px) {
-  /* line 521, ../sass/pages.scss */
+  /* line 576, ../sass/pages.scss */
   .islandora-basic-collection-grid dl {
     width: 45.5%;
   }
 }
 @media (max-width: 450px) {
-  /* line 521, ../sass/pages.scss */
+  /* line 576, ../sass/pages.scss */
   .islandora-basic-collection-grid dl {
     width: 96%;
   }
 }
 
 /* ========================================================================== */
-/* line 542, ../sass/pages.scss */
+/* line 597, ../sass/pages.scss */
 .footer-break {
   height: 15px;
   width: 100%;
@@ -603,7 +652,7 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   background: url("../images/foot-bar-left.png") left #c32222 no-repeat;
 }
 
-/* line 549, ../sass/pages.scss */
+/* line 604, ../sass/pages.scss */
 #footer {
   clear: both;
   float: left;
@@ -612,72 +661,72 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   margin-bottom: 2em;
 }
 
-/* line 559, ../sass/pages.scss */
+/* line 614, ../sass/pages.scss */
 .footer-logos {
   clear: both;
   float: right;
   width: 100%;
   margin-top: 1em;
 }
-/* line 565, ../sass/pages.scss */
+/* line 620, ../sass/pages.scss */
 .footer-logos .logo-container {
   width: 700px;
   margin: 0 auto;
 }
-/* line 571, ../sass/pages.scss */
+/* line 626, ../sass/pages.scss */
 .footer-logos .logo-container div {
   width: auto;
   float: left;
 }
-/* line 576, ../sass/pages.scss */
+/* line 631, ../sass/pages.scss */
 .footer-logos img {
   margin-left: 2.8em;
 }
-/* line 580, ../sass/pages.scss */
+/* line 635, ../sass/pages.scss */
 .footer-logos .sponsor1 img {
   margin-left: 0;
 }
 
 @media (max-width: 710px) {
-  /* line 587, ../sass/pages.scss */
+  /* line 642, ../sass/pages.scss */
   .footer-logos .logo-container {
     width: 610px;
   }
-  /* line 591, ../sass/pages.scss */
+  /* line 646, ../sass/pages.scss */
   .footer-logos img {
     margin-bottom: 2em;
     margin-left: 1em;
   }
 }
 @media (max-width: 625px) {
-  /* line 599, ../sass/pages.scss */
+  /* line 654, ../sass/pages.scss */
   .logo-container {
     width: 83% !important;
   }
 }
 @media (max-width: 400px) {
-  /* line 605, ../sass/pages.scss */
+  /* line 660, ../sass/pages.scss */
   .logo-container {
     width: 100% !important;
   }
-  /* line 608, ../sass/pages.scss */
+  /* line 663, ../sass/pages.scss */
   .logo-container div {
     width: 100% !important;
     margin-bottom: 3em;
   }
-  /* line 613, ../sass/pages.scss */
+  /* line 668, ../sass/pages.scss */
   .logo-container img {
     display: block;
     float: none;
     margin: 0 auto;
   }
-  /* line 619, ../sass/pages.scss */
+  /* line 674, ../sass/pages.scss */
   .logo-container .sponsor1 img {
     margin-left: auto;
   }
 }
 /* ========================================================================== */
-/* line 630, ../sass/pages.scss */
+/* line 685, ../sass/pages.scss */
 #first-time {
   display: none;
 }

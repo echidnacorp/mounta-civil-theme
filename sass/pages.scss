@@ -234,6 +234,7 @@ h1#page-title {
   }
 }
 
+
 @media (max-width: 530px) {  
 
   .header__region #logo img {
@@ -242,26 +243,80 @@ h1#page-title {
   }
 }
 
+
 @media (max-width: 530px) { 
   #header hgroup { margin: 1.8em 4% 0em 4%;}
 }
+
 
 @media (max-width: 450px) { 
   #header hgroup { margin: 0.8em 4% 0em 4%;}
   #site-name {width: 97%;}
 }
 
+
 @media (max-width: 405px) {
-  #header hgroup { margin: 1.5em 4% 0em 4%;}
-  #site-name {width: 90%; font-size: .7rem; top: 55px;}
+
   #site-slogan {font-size: .7em; top: -54px;}
+
+  .site-slogan-container svg {height: 55px;}
+
+  #header hgroup {margin: 0 4%;  position: relative;  -webkit-text-size-adjust: none; top:6px;   top:20px;}
+
+  #site-name {
+    -webkit-text-size-adjust: none; 
+    position: absolute;
+    font-size: 8px;
+    margin: 1em 10% 0 10%;
+    top: 55px;
+    width: 80%;
+  }
+
+  #site-slogan {
+    top:-39px;
+    font-size: 8.5px;
+    padding: 0;
+    -webkit-text-size-adjust: none; 
+  }
+
+  .site-slogan-container {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    -webkit-text-size-adjust: none; 
+  }
+
+  .site-slogan-container svg {
+    position: relative;
+    float: left;
+    padding: 0em;
+   -webkit-text-size-adjust: none; 
+  }
 }
 
-@media (max-width: 345px) {
-  #header hgroup { margin: .8em 4% 0em 4%;}
-  #site-name {width: 100%; font-size: .7rem; top: 55px;}
+
+@media (max-width: 375px) {
+
+    #site-name { width: 86%; margin: .2em 7% 0 7%;}
+}
+
+
+@media (max-width: 341px) and (min-width: 325px) { 
+
+  #site-name { width: 96% !important; margin: .2em 2% 0 2%;}
 
 }
+
+
+@media (max-width: 340px) { 
+
+  #header hgroup { top: 6px}
+
+  #site-name { width: 100%; margin: .2em 0 0 0;}
+
+}
+
+
 
 
 /* ========================================================================== */
