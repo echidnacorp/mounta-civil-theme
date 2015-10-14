@@ -182,7 +182,7 @@
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
+<?php if (user_is_logged_in() && $show_messages && $messages): print $messages; endif; ?>
       <?php print render($tabs); ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?>

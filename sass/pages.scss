@@ -36,6 +36,14 @@ h1#page-title {
   font-family: $font1;
 }
 
+//hide contextual links for anonymous users
+.not-logged-in {
+  //.messages,
+  .contextual-links-wrapper {
+    display: none;
+  }
+}
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.

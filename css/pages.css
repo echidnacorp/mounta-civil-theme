@@ -49,15 +49,20 @@ h1#page-title {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+/* line 42, ../sass/pages.scss */
+.not-logged-in .contextual-links-wrapper {
+  display: none;
+}
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-/* line 44, ../sass/pages.scss */
+/* line 52, ../sass/pages.scss */
 #skip-link {
   margin: 0;
 }
-/* line 47, ../sass/pages.scss */
+/* line 55, ../sass/pages.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -69,37 +74,37 @@ h1#page-title {
 }
 
 /* ========================================================================== */
-/* line 74, ../sass/pages.scss */
+/* line 82, ../sass/pages.scss */
 #logo {
   /* Wrapping link for logo */
   display: block;
   padding: .8em 0 0;
 }
-/* line 78, ../sass/pages.scss */
+/* line 86, ../sass/pages.scss */
 #logo img {
   height: 140px;
   width: auto;
 }
 
-/* line 84, ../sass/pages.scss */
+/* line 92, ../sass/pages.scss */
 #block-delta-blocks-logo,
 #logo {
   float: left;
 }
 
-/* line 89, ../sass/pages.scss */
+/* line 97, ../sass/pages.scss */
 #header hgroup {
   padding: 2.7em 0;
 }
 
-/* line 93, ../sass/pages.scss */
+/* line 101, ../sass/pages.scss */
 #name-and-slogan {
   /* Wrapper for website name and slogan */
   float: right;
   position: relative;
 }
 
-/* line 100, ../sass/pages.scss */
+/* line 108, ../sass/pages.scss */
 #site-name {
   /* The name of the website */
   margin: 0;
@@ -117,7 +122,7 @@ h1#page-title {
   position: relative;
 }
 
-/* line 116, ../sass/pages.scss */
+/* line 124, ../sass/pages.scss */
 #site-slogan {
   /* The slogan (or tagline) of a website */
   margin: 0;
@@ -136,7 +141,7 @@ h1#page-title {
   color: #fff;
 }
 
-/* line 133, ../sass/pages.scss */
+/* line 141, ../sass/pages.scss */
 .site-slogan-container {
   background-repeat: no-repeat;
   float: left;
@@ -145,72 +150,72 @@ h1#page-title {
 }
 
 @media (max-width: 875px) {
-  /* line 143, ../sass/pages.scss */
+  /* line 151, ../sass/pages.scss */
   #header hgroup {
     padding: 2.7em 0 0;
   }
 
-  /* line 149, ../sass/pages.scss */
+  /* line 157, ../sass/pages.scss */
   .header__region {
     width: 10%;
     float: left;
   }
-  /* line 153, ../sass/pages.scss */
+  /* line 161, ../sass/pages.scss */
   .header__region #logo img {
     width: 100%;
     height: auto;
   }
 
-  /* line 161, ../sass/pages.scss */
+  /* line 169, ../sass/pages.scss */
   #name-and-slogan {
     width: 90%;
     float: right;
     position: relative;
   }
 
-  /* line 167, ../sass/pages.scss */
+  /* line 175, ../sass/pages.scss */
   .site-slogan-container {
     width: 42%;
     margin-right: 2%;
     margin-left: 5%;
     position: absolute;
   }
-  /* line 173, ../sass/pages.scss */
+  /* line 181, ../sass/pages.scss */
   .site-slogan-container svg {
     width: 100%;
   }
 
-  /* line 178, ../sass/pages.scss */
+  /* line 186, ../sass/pages.scss */
   #site-name {
     width: 50%;
   }
 }
 @media (max-width: 750px) {
-  /* line 183, ../sass/pages.scss */
+  /* line 191, ../sass/pages.scss */
   #site-name {
     font-size: 1rem;
     top: 1em;
   }
 }
 @media (max-width: 750px) and (min-width: 734px) {
-  /* line 185, ../sass/pages.scss */
+  /* line 193, ../sass/pages.scss */
   #site-name {
     width: 49%;
   }
 }
 @media (max-width: 640px) {
-  /* line 189, ../sass/pages.scss */
+  /* line 197, ../sass/pages.scss */
   .header__region {
     float: left;
     width: 20%;
   }
-  /* line 193, ../sass/pages.scss */
+  /* line 201, ../sass/pages.scss */
   .header__region #logo img {
     height: 130px;
     width: auto;
   }
 
-  /* line 199, ../sass/pages.scss */
+  /* line 207, ../sass/pages.scss */
   #header hgroup {
     width: 72%;
     float: right;
@@ -218,7 +223,7 @@ h1#page-title {
     padding: 0;
   }
 
-  /* line 206, ../sass/pages.scss */
+  /* line 214, ../sass/pages.scss */
   #name-and-slogan .site-slogan-container {
     width: 100%;
     margin-bottom: 0;
@@ -226,7 +231,7 @@ h1#page-title {
     margin-left: 0;
   }
 
-  /* line 213, ../sass/pages.scss */
+  /* line 221, ../sass/pages.scss */
   #site-slogan {
     margin: 0 auto;
     float: none;
@@ -234,7 +239,7 @@ h1#page-title {
     text-align: center;
   }
 
-  /* line 220, ../sass/pages.scss */
+  /* line 228, ../sass/pages.scss */
   #site-name {
     width: 270px;
     top: 70px;
@@ -244,55 +249,55 @@ h1#page-title {
   }
 }
 @media (max-width: 530px) {
-  /* line 231, ../sass/pages.scss */
+  /* line 239, ../sass/pages.scss */
   .header__region #logo img {
     height: auto;
     width: 100%;
   }
 }
 @media (max-width: 530px) {
-  /* line 238, ../sass/pages.scss */
+  /* line 246, ../sass/pages.scss */
   #header hgroup {
     margin: 1.8em 4% 0em 4%;
   }
 }
 @media (max-width: 450px) {
-  /* line 242, ../sass/pages.scss */
+  /* line 250, ../sass/pages.scss */
   #header hgroup {
     margin: 0.8em 4% 0em 4%;
   }
 
-  /* line 243, ../sass/pages.scss */
+  /* line 251, ../sass/pages.scss */
   #site-name {
     width: 97%;
   }
 }
 @media (max-width: 405px) {
-  /* line 247, ../sass/pages.scss */
+  /* line 255, ../sass/pages.scss */
   #header hgroup {
     margin: 1.5em 4% 0em 4%;
   }
 
-  /* line 248, ../sass/pages.scss */
+  /* line 256, ../sass/pages.scss */
   #site-name {
     width: 90%;
     font-size: .7rem;
     top: 55px;
   }
 
-  /* line 249, ../sass/pages.scss */
+  /* line 257, ../sass/pages.scss */
   #site-slogan {
     font-size: .7em;
     top: -54px;
   }
 }
 @media (max-width: 345px) {
-  /* line 253, ../sass/pages.scss */
+  /* line 261, ../sass/pages.scss */
   #header hgroup {
     margin: .8em 4% 0em 4%;
   }
 
-  /* line 254, ../sass/pages.scss */
+  /* line 262, ../sass/pages.scss */
   #site-name {
     width: 100%;
     font-size: .7rem;
@@ -300,21 +305,21 @@ h1#page-title {
   }
 }
 /* ========================================================================== */
-/* line 264, ../sass/pages.scss */
+/* line 272, ../sass/pages.scss */
 #main {
   margin-top: 0em;
 }
 
-/* line 268, ../sass/pages.scss */
+/* line 276, ../sass/pages.scss */
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-/* line 269, ../sass/pages.scss */
+/* line 277, ../sass/pages.scss */
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-/* line 273, ../sass/pages.scss */
+/* line 281, ../sass/pages.scss */
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -322,7 +327,7 @@ h1#page-title {
   padding: 0;
 }
 
-/* line 281, ../sass/pages.scss */
+/* line 289, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -333,37 +338,37 @@ h3.title {
   margin: 0;
 }
 
-/* line 294, ../sass/pages.scss */
+/* line 302, ../sass/pages.scss */
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 298, ../sass/pages.scss */
+/* line 306, ../sass/pages.scss */
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 302, ../sass/pages.scss */
+/* line 310, ../sass/pages.scss */
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-/* line 305, ../sass/pages.scss */
+/* line 313, ../sass/pages.scss */
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 311, ../sass/pages.scss */
+/* line 319, ../sass/pages.scss */
 div.status {
   /* Normal priority messages */
 }
 
-/* line 314, ../sass/pages.scss */
+/* line 322, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -371,82 +376,82 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 319, ../sass/pages.scss */
+/* line 327, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-/* line 323, ../sass/pages.scss */
+/* line 331, ../sass/pages.scss */
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-/* line 327, ../sass/pages.scss */
+/* line 335, ../sass/pages.scss */
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-/* line 331, ../sass/pages.scss */
+/* line 339, ../sass/pages.scss */
 .tabs {
   /* See also the tabs.css file. */
 }
 
-/* line 334, ../sass/pages.scss */
+/* line 342, ../sass/pages.scss */
 .region-help {
   /* Help text on a page */
 }
 
-/* line 337, ../sass/pages.scss */
+/* line 345, ../sass/pages.scss */
 .more-help-link {
   /* Link to more help */
 }
 
-/* line 340, ../sass/pages.scss */
+/* line 348, ../sass/pages.scss */
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-/* line 343, ../sass/pages.scss */
+/* line 351, ../sass/pages.scss */
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-/* line 347, ../sass/pages.scss */
+/* line 355, ../sass/pages.scss */
 ul.inline li {
   display: inline;
   list-style-type: none;
   padding: 0 1em 0 0;
 }
 
-/* line 353, ../sass/pages.scss */
+/* line 361, ../sass/pages.scss */
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
 }
 
-/* line 357, ../sass/pages.scss */
+/* line 365, ../sass/pages.scss */
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-/* line 360, ../sass/pages.scss */
+/* line 368, ../sass/pages.scss */
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-/* line 365, ../sass/pages.scss */
+/* line 373, ../sass/pages.scss */
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-/* line 368, ../sass/pages.scss */
+/* line 376, ../sass/pages.scss */
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -468,65 +473,65 @@ span.field-label {
  * Islandora Overrides
  */
 /* ========================================================================== */
-/* line 406, ../sass/pages.scss */
+/* line 414, ../sass/pages.scss */
 #islandora-solr-top {
   display: inline-block;
   margin-left: 1em;
 }
 
-/* line 411, ../sass/pages.scss */
+/* line 419, ../sass/pages.scss */
 ul.pager {
   padding: .5em !important;
   border-top: 1px solid #E3E3E3;
   border-bottom: 1px solid #E3E3E3;
 }
-/* line 416, ../sass/pages.scss */
+/* line 424, ../sass/pages.scss */
 ul.pager li a {
   text-decoration: none;
   color: #c32222;
   font-family: "Bitter", "Times New Roman", serif;
 }
-/* line 420, ../sass/pages.scss */
+/* line 428, ../sass/pages.scss */
 ul.pager li a:hover {
   color: #fff !important;
 }
-/* line 423, ../sass/pages.scss */
+/* line 431, ../sass/pages.scss */
 ul.pager li:hover {
   background-color: #c32222;
   border-radius: 3px;
 }
-/* line 426, ../sass/pages.scss */
+/* line 434, ../sass/pages.scss */
 ul.pager li:hover a {
   color: #fff !important;
 }
-/* line 430, ../sass/pages.scss */
+/* line 438, ../sass/pages.scss */
 ul.pager li.pager-current {
   background-color: #c32222;
   color: #fff;
   border-radius: 3px;
 }
-/* line 437, ../sass/pages.scss */
+/* line 445, ../sass/pages.scss */
 ul.pager li.pager-next:hover, ul.pager li.pager-last:hover, ul.pager li.pager-previous:hover, ul.pager li.pager-first:hover {
   color: #981a1a;
   background-color: #fff;
 }
-/* line 440, ../sass/pages.scss */
+/* line 448, ../sass/pages.scss */
 ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.pager-previous:hover a, ul.pager li.pager-first:hover a {
   color: #981a1a !important;
 }
 
-/* line 445, ../sass/pages.scss */
+/* line 453, ../sass/pages.scss */
 .islandora-basic-image-object {
   margin-top: 1em;
 }
 
 /* ========================================================================== */
-/* line 455, ../sass/pages.scss */
+/* line 463, ../sass/pages.scss */
 .islandora-basic-collection-display-switch ul li {
   padding: 0;
   margin-left: .5em;
 }
-/* line 460, ../sass/pages.scss */
+/* line 468, ../sass/pages.scss */
 .islandora-basic-collection-display-switch a {
   display: inline-block;
   padding: .7em 1.5em;
@@ -538,59 +543,59 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   font-size: .8em;
   text-transform: uppercase;
 }
-/* line 471, ../sass/pages.scss */
+/* line 479, ../sass/pages.scss */
 .islandora-basic-collection-display-switch a.active {
   background-color: #981a1a;
 }
-/* line 475, ../sass/pages.scss */
+/* line 483, ../sass/pages.scss */
 .islandora-basic-collection-display-switch a:hover {
   background-color: #981a1a;
 }
 
 /* ========================================================================== */
-/* line 488, ../sass/pages.scss */
+/* line 496, ../sass/pages.scss */
 .islandora-basic-collection dt img {
   display: block;
   margin: 0 auto;
 }
-/* line 493, ../sass/pages.scss */
+/* line 501, ../sass/pages.scss */
 .islandora-basic-collection .islandora-basic-collection-caption {
   text-align: center;
   margin-top: .5em;
 }
-/* line 498, ../sass/pages.scss */
+/* line 506, ../sass/pages.scss */
 .islandora-basic-collection .collection-value.dc-title a,
 .islandora-basic-collection .islandora-basic-collection-caption a {
   color: #c32222;
   font-family: "Bitter", "Times New Roman", serif;
   text-decoration: none;
 }
-/* line 504, ../sass/pages.scss */
+/* line 512, ../sass/pages.scss */
 .islandora-basic-collection .collection-value.dc-title a:hover,
 .islandora-basic-collection .islandora-basic-collection-caption a:hover {
   color: #981a1a;
 }
 
-/* line 513, ../sass/pages.scss */
+/* line 521, ../sass/pages.scss */
 .islandora-basic-collection-grid dl {
   width: 20.5%;
   margin: 1.5em 2%;
 }
 @media (max-width: 560px) {
-  /* line 513, ../sass/pages.scss */
+  /* line 521, ../sass/pages.scss */
   .islandora-basic-collection-grid dl {
     width: 45.5%;
   }
 }
 @media (max-width: 450px) {
-  /* line 513, ../sass/pages.scss */
+  /* line 521, ../sass/pages.scss */
   .islandora-basic-collection-grid dl {
     width: 96%;
   }
 }
 
 /* ========================================================================== */
-/* line 534, ../sass/pages.scss */
+/* line 542, ../sass/pages.scss */
 .footer-break {
   height: 15px;
   width: 100%;
@@ -598,7 +603,7 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   background: url("../images/foot-bar-left.png") left #c32222 no-repeat;
 }
 
-/* line 541, ../sass/pages.scss */
+/* line 549, ../sass/pages.scss */
 #footer {
   clear: both;
   float: left;
@@ -607,72 +612,72 @@ ul.pager li.pager-next:hover a, ul.pager li.pager-last:hover a, ul.pager li.page
   margin-bottom: 2em;
 }
 
-/* line 551, ../sass/pages.scss */
+/* line 559, ../sass/pages.scss */
 .footer-logos {
   clear: both;
   float: right;
   width: 100%;
   margin-top: 1em;
 }
-/* line 557, ../sass/pages.scss */
+/* line 565, ../sass/pages.scss */
 .footer-logos .logo-container {
   width: 700px;
   margin: 0 auto;
 }
-/* line 563, ../sass/pages.scss */
+/* line 571, ../sass/pages.scss */
 .footer-logos .logo-container div {
   width: auto;
   float: left;
 }
-/* line 568, ../sass/pages.scss */
+/* line 576, ../sass/pages.scss */
 .footer-logos img {
   margin-left: 2.8em;
 }
-/* line 572, ../sass/pages.scss */
+/* line 580, ../sass/pages.scss */
 .footer-logos .sponsor1 img {
   margin-left: 0;
 }
 
 @media (max-width: 710px) {
-  /* line 579, ../sass/pages.scss */
+  /* line 587, ../sass/pages.scss */
   .footer-logos .logo-container {
     width: 610px;
   }
-  /* line 583, ../sass/pages.scss */
+  /* line 591, ../sass/pages.scss */
   .footer-logos img {
     margin-bottom: 2em;
     margin-left: 1em;
   }
 }
 @media (max-width: 625px) {
-  /* line 591, ../sass/pages.scss */
+  /* line 599, ../sass/pages.scss */
   .logo-container {
     width: 83% !important;
   }
 }
 @media (max-width: 400px) {
-  /* line 597, ../sass/pages.scss */
+  /* line 605, ../sass/pages.scss */
   .logo-container {
     width: 100% !important;
   }
-  /* line 600, ../sass/pages.scss */
+  /* line 608, ../sass/pages.scss */
   .logo-container div {
     width: 100% !important;
     margin-bottom: 3em;
   }
-  /* line 605, ../sass/pages.scss */
+  /* line 613, ../sass/pages.scss */
   .logo-container img {
     display: block;
     float: none;
     margin: 0 auto;
   }
-  /* line 611, ../sass/pages.scss */
+  /* line 619, ../sass/pages.scss */
   .logo-container .sponsor1 img {
     margin-left: auto;
   }
 }
 /* ========================================================================== */
-/* line 622, ../sass/pages.scss */
+/* line 630, ../sass/pages.scss */
 #first-time {
   display: none;
 }
