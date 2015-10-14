@@ -140,7 +140,7 @@
               <div class="sub-text"><p><a href="case-studies">Scholarship on our primary sources and other cultural engagement with the Spanish Civil War. <span class="more">More ></span></a></p></div>
             </li>
             <li class="teaching-tools">
-              <a href="teaching-modules" class="title">Teaching Tools</a>
+              <a href="teaching-modules" class="title">Teaching Modules</a>
               <div class="sub-text"><p><a href="teaching-modules">Resources for teaching Canadian materials about the Spanish Civil War at the secondary and post-secondary levels. <span class="more">More ></span></a></p></div>
             </li>
             <li class="news small-box">
