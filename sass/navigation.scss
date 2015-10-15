@@ -182,6 +182,7 @@ ul li.leaf {
         a{
           border-bottom: 1px solid #fff;
           padding: 1em;
+          border-right: none;
 
           &:hover, &.active-trail {
             background-image: none;
