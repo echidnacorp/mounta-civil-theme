@@ -198,12 +198,13 @@ ul li.leaf {
   display: none;
 }
 
+
+@media screen and (max-width: 690px) {
+
 .not-front #navigation {
   padding: 0;
   margin-bottom: .8em
 }
-
-@media screen and (max-width: 690px) {
 
   .header-nav-container {
     display: block;
