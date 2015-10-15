@@ -31,7 +31,6 @@
 <?php if ($content): ?>
   <div class="<?php print $classes; ?>">
 
-    <div class="header-nav-container" data-set="mobile-nav-container-data"></div>
 
     <?php print $content; ?>
   </div>

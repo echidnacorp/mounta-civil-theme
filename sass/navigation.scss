@@ -192,6 +192,34 @@ ul li.leaf {
   }
 
 
+//javascript css for main nav mobile menu and style fix
+
+.header-nav-container {
+  display: none;
+}
+
+.not-front #navigation {
+  padding: 0;
+  margin-bottom: .8em
+}
+
+@media screen and (max-width: 690px) {
+
+  .header-nav-container {
+    display: block;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .not-front .main-content-container {
+    margin-top: 0;
+  }
+
+}
+
+
 
 
 
@@ -562,8 +590,6 @@ select#tinynav1 {
     .tinynav { display: block }
     .menu-name-main-menu .menu{ display: none }
 }
-
-
 
 
 

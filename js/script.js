@@ -15,9 +15,9 @@
 (function ($, Drupal, window, document, undefined) {
 
 
-	$(function() {
-		$(".flexnav").flexNav();
-	});
+  $(function() {
+	$(".flexnav").flexNav();
+  });
 
 
   $(function () {
@@ -26,6 +26,11 @@
     	header: 'Choose a Section' // String: Specify text for "header" and show header instead of the active item
     });
   });
+
+
+ $(function(){
+  $( "#navigation" ).appendAround();
+ });
 
 
 
